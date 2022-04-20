@@ -1,0 +1,16 @@
+/* Theme Name:    unesco_theme
+Template:    ultra
+Version:      1.6.4
+Description:  Ultra
+Author:      Amalie Nielsen */
+
+html {
+  background-color: green;
+}
+
+#top-bar {
+  display: none;
+}
+.site-title {
+  color: blue;
+}
