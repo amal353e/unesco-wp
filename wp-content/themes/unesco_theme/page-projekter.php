@@ -35,10 +35,10 @@
     <template>
       <article class="card">
        	<img class="card_img" src="" alt="" />
-         <div class="card_text">
-          <h3 class="projekt_titel"></h3>
-          <p class="beskrivelse"></p>
-         </div>
+          <div class="card_text">
+            <h3 class="projekt_titel"></h3>
+            <p class="beskrivelse"></p>
+          </div>
      	</article>
     </template>
 
