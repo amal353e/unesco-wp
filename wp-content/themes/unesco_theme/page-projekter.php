@@ -16,7 +16,7 @@
         aspect-ratio: 5/8;
       }
 
-      #content_projecter {
+      #content_projekter {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
         max-width: 1200px;
@@ -37,7 +37,8 @@
        	<img class="card_img" src="" alt="" />
           <div class="card_text">
             <h3 class="projekt_titel"></h3>
-            <p class="beskrivelse"></p>
+            <p class="kort_beskrivelse"></p>
+            <p class="trin"></p>
           </div>
      	</article>
     </template>
@@ -47,10 +48,23 @@
       <div id="filter_menu">
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
-          <button class="filter-btn" data-category="indskoling">Indskoling</button>
-          <button class="filter-btn" data-category="mellemtrin">Mellemtrin</button>
-          <button class="filter-btn" data-category="udskoling">Udskoling</button>
-          <button class="filter-btn" data-category="gymnasiet">Gymnasiet</button>
+          <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
+          <button class="filter-btn" data-category="vm2">2. Stop sult</button>
+          <button class="filter-btn" data-category="vm3">3. Sundhed og trivsel</button>
+          <button class="filter-btn" data-category="vm4">4. Kvalitetsuddannelse</button>
+          <button class="filter-btn" data-category="vm5">5. Ligestilling mellem kønnene</button>
+          <button class="filter-btn" data-category="vm6">6. Rent vand og sanitet</button>
+          <button class="filter-btn" data-category="vm7">7. Bæredygtig energi</button>
+          <button class="filter-btn" data-category="vm8">8. Anstændige jobs og økonomisk vækst</button>
+          <button class="filter-btn" data-category="vm9">9. Industri, innovation og infrastruktur</button>
+          <button class="filter-btn" data-category="vm10">10. Mindre ulighed</button>
+          <button class="filter-btn" data-category="vm11">11. Bæredygtige byer og lokalsamfund</button>
+          <button class="filter-btn" data-category="vm12">12. Ansvarligt forbrug og produktion</button>
+          <button class="filter-btn" data-category="vm13">13. Klimaindsats</button>
+          <button class="filter-btn" data-category="vm14">14. Livet i havet</button>
+          <button class="filter-btn" data-category="vm15">15. Livet på land</button>
+          <button class="filter-btn" data-category="vm16">16. Fred, retfærdighed og stærke institutioner</button>
+          <button class="filter-btn" data-category="vm17">17. Partnerskab for handling</button>
         </div>
       </div>
       <section id="content_projekter">
@@ -95,12 +109,13 @@
         mainContent.textContent = ""; //fjerner sektionens indhold
 
         projekter.forEach((projekt) => {
-          if (filter == projekt.uddannelse || filter == "alle") {
+          if (filter == "alle" || projekt.verdensmaal_1 == "n/a" || filter == projekt.verdensmaal_1 || filter == projekt.verdensmaal_2 || filter == projekt.verdensmaal_3) {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
             clone.querySelector("img").src = `${projekt.billede.guid}`;
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
-            clone.querySelector(".beskrivelse").textContent = `${projekt.beskrivelse}`;
+            clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
+            clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
             mainContent.appendChild(clone);
           }
        });
