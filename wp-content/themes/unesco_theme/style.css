@@ -3,3 +3,7 @@ Template:    mesmerize
 Version:     1.6.109
 Description: mesmerize
 Author:      Amalie Nielsen */
+
+div.row:nth-child(7) {
+  margin-inline: 5%;
+}
