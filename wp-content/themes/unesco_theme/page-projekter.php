@@ -23,6 +23,13 @@
         gap:24px;
         margin-inline: auto;
       }
+
+      .card_img {
+        height: 100%;
+        background-size: cover;
+        max-width: 100%;
+        object-fit: cover;
+      }
     </style>
 
     <template>
