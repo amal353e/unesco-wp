@@ -81,7 +81,7 @@
       document.addEventListener("DOMContentLoaded", () => {
         //venter indtil siden er loadet før knapperne bliver funktionelle
         const filterButtons = document.querySelectorAll(".filter-btn");
-        filterButtons.forEach((button) => button.addEventListener("click", filterUddannelse)); //knapperne kalder på filterUddannelse() funktionen, når man klikker
+        filterButtons.forEach((button) => button.addEventListener("click", filterVM)); //knapperne kalder på filterVM() funktionen, når man klikker
         fetchData(); //kalder på fetchData() funktionen
       });
 
@@ -93,7 +93,7 @@
         console.log(projekter);
       }
 
-      function filterUddannelse() {
+      function filterVM() {
         //bliver kaldt når knapperne klikkes på
         filter = this.dataset.category; //variablen ændres til den knap man klikker på
         document.querySelector(".selected").classList.remove("selected");
