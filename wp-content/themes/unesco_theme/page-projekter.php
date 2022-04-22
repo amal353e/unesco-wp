@@ -13,6 +13,11 @@
       #main_content > *::before, #main_content > *::after {
         display: none;
       }
+      
+      #filter_menu {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
 
       .projekt_card {
         display: grid;
@@ -29,7 +34,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
         max-width: 1200px;
-        gap:24px;
+        gap:36px 24px;
         margin-inline: auto;
       }
 
@@ -42,6 +47,7 @@
       .card_text {
         padding: 8px;
         display: grid;
+        grid-template-rows: 5rem auto auto;
       }
       
       .card_text > p {
@@ -51,6 +57,8 @@
       .trin {
         font-style: italic;
         margin-top: auto;
+        font-size: 0.9em;
+        opacity: 0.85;
       }
     </style>
 
