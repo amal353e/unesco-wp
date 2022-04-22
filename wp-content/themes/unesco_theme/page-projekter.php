@@ -148,7 +148,7 @@
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
 
-            clone.querySelector(".projekt_card").style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
+            clone.querySelector(".projekt_card").style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%))`;
             //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
             mainContent.appendChild(clone);
           }
