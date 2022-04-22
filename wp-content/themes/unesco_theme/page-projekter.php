@@ -138,10 +138,6 @@
         const template = document.querySelector("template").content;
         mainContent.textContent = ""; //fjerner sektionens indhold
 
-        const cards = document.querySelectorAll(".projekt_card");
-        cards.forEach((card) => card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
-        //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
-
         projekter.forEach((projekt) => {
           if (filter == "alle" || projekt.verdensmaal_1 == "n/a" || filter == projekt.verdensmaal_1 || filter == projekt.verdensmaal_2 || filter == projekt.verdensmaal_3) {
             //hvis objektet har samme værdi som filterknappen
@@ -150,6 +146,9 @@
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
+
+            clone.querySelector(".projekt_card").style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
+            //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
             mainContent.appendChild(clone);
           }
        });
