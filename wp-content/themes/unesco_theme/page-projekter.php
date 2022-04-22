@@ -23,6 +23,7 @@
         display: grid;
         grid-template-rows: 5fr 3fr;
         aspect-ratio: 5/8;
+        box-shadow: #80808040 2px 4px 8px;
       }
       
       .projekt_titel {
@@ -34,7 +35,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
         max-width: 1200px;
-        gap:36px 24px;
+        gap: 36px 24px;
         margin-inline: auto;
       }
 
