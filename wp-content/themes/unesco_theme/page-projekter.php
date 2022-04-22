@@ -105,6 +105,8 @@
     <script>
       const url = "https://amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/wp-json/wp/v2/projekt?per_page=100"; //wp-json
 
+      const cards = document.querySelectorAll(".projekt_card");
+
       let projekter; //json databasen
       let filter = "alle"; //variabel som ændrer sig alt efter hvilken filterknap du klikker på
 
@@ -146,14 +148,14 @@
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
+            cards.forEach((card) => card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
+            //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
             mainContent.appendChild(clone);
           }
        });
       }
 
-      const cards = document.querySelectorAll(".projekt_card");
-
-      cards.forEach((card) => card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
+      
 
     </script>
   </div>
