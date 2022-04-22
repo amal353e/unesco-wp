@@ -10,10 +10,19 @@
         box-sizing: border-box;
       }
 
-      .card {
+      #main_content > *::before, #main_content > *::after {
+        display: none;
+      }
+
+      .projekt_card {
         display: grid;
         grid-template-rows: 5fr 3fr;
         aspect-ratio: 5/8;
+      }
+      
+      .projekt_titel {
+        color: black;
+        font-weight: 700;
       }
 
       #content_projekter {
@@ -27,13 +36,26 @@
       .card_img {
         height: 100%;
         background-size: cover;
-        max-width: 100%;
         object-fit: cover;
+      }
+
+      .card_text {
+        padding: 8px;
+        display: grid;
+      }
+      
+      .card_text > p {
+        color: black;
+      }
+
+      .trin {
+        font-style: italic;
+        margin-top: auto;
       }
     </style>
 
     <template>
-      <article class="card">
+      <article class="projekt_card">
        	<img class="card_img" src="" alt="" />
           <div class="card_text">
             <h3 class="projekt_titel"></h3>
@@ -90,7 +112,7 @@
         let response = await fetch(url);
         projekter = await response.json();
         display(projekter); //kalder på display() funktionen med projekter som parameter
-        console.log(projekter);
+        //console.log(projekter);
       }
 
       function filterVM() {
@@ -120,6 +142,10 @@
           }
        });
       }
+
+      const cards = document.querySelectorAll(".projekt_card");
+
+      cards.forEach((card) => card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
 
     </script>
   </div>
