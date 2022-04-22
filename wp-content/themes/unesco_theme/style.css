@@ -40,3 +40,7 @@ p {
   font-family: sweet-sans-pro, sans-serif;
   font-weight: 400;
 }
+
+.wp-container-1 {
+  gap: 8em;
+}
