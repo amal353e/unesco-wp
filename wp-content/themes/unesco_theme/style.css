@@ -12,3 +12,31 @@ div.row:nth-child(7) {
   background-image: url(/unesco-bb.png);
   object-fit: cover;
 }
+
+/* fonte */
+@import url("https://use.typekit.net/tvt0zil.css");
+
+h1 {
+  font-family: freight-display-pro, serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: basco-std, serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: basco-std, serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: basco-std, serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: sweet-sans-pro, sans-serif;
+  font-weight: 600;
+}
