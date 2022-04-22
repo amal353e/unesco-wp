@@ -7,3 +7,8 @@ Author:      Amalie Nielsen */
 div.row:nth-child(7) {
   margin-inline: 5%;
 }
+/* virker ikke */
+.header {
+  background-image: url(/unesco-bb.png);
+  object-fit: cover;
+}
