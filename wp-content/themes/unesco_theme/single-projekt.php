@@ -58,7 +58,7 @@
 
 		  	document.getElementById("close").addEventListener("click", () => {
 			  	history.back();
-		  	}); //lukke knap*/
+		  	});
 
       </script>
     </div>
