@@ -276,3 +276,43 @@ div.wp-block-columns:nth-child(3) > div:nth-child(1) a:hover {
 li .slick-active {
   display: none;
 } */
+
+/* knapper - formularer */
+#wpforms-submit-236,
+#wpforms-submit-229,
+#wpforms-submit-169 {
+  outline: none;
+  text-decoration: none;
+  color: #6f9ede;
+  background-color: transparent;
+  border-color: #6f9ede;
+  border-radius: 120px;
+}
+#wpforms-submit-236:hover,
+#wpforms-submit-229:hover,
+#wpforms-submit-169:hover {
+  outline: none;
+  text-decoration: none;
+  color: white;
+  background-color: #93cc99;
+  border-color: #93cc99;
+  border-radius: 120px;
+}
+
+/*  knap - medborgerskab*/
+.wp-block-button__link {
+  outline: none;
+  text-decoration: none;
+  color: #6f9ede;
+  background-color: transparent;
+  border-color: #6f9ede;
+  border-radius: 120px;
+}
+.wp-block-button__link:hover {
+  outline: none;
+  text-decoration: none;
+  color: white;
+  background-color: #93cc99;
+  border-color: #93cc99;
+  border-radius: 120px;
+}
