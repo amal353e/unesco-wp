@@ -312,9 +312,36 @@
             mainContent.appendChild(clone);
           }
         });
-        document.querySelectorAll(".projekt_card").forEach((card) => 
-        card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
-        //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
+
+        let randomColor;
+        document.querySelectorAll(".projekt_card").forEach((card) => {
+          randomColor = Math.floor(Math.random() * 6);
+          switch(randomColor) {
+              case 0:
+                card.style.backgroundColor = "#6F9EDE";
+                break;
+
+              case 1:
+                card.style.backgroundColor = "#85AECE";
+                break;
+
+              case 2:
+                card.style.backgroundColor = "#6FAFAD";
+                break;
+
+              case 3:
+                card.style.backgroundColor = "#93CC99";
+                break;
+              
+              case 4:
+                card.style.backgroundColor = "#F5C346";
+                break;
+                
+              case 5:
+                card.style.backgroundColor = "#EC605F";
+                break;
+          }
+        }); //giver hvert kort en tilfældig baggrundsfarve ud af 6 farver
       }
 
     </script>
