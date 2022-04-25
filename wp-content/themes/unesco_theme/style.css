@@ -240,6 +240,7 @@ section::after {
 }
 
 /* --------------------------------- verdensmålsskoler - side ------------------------- */
+/* links fået farve */
 div.wp-block-columns:nth-child(3) > div:nth-child(1) a {
   text-decoration: none;
   color: #85aece;
