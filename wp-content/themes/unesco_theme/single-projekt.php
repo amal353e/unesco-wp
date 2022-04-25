@@ -9,12 +9,13 @@
           font-weight: bolder;
           cursor: pointer;
           color: #000000;
-          margin: 8px -8px 0px 0px;
           aspect-ratio: 1/1;
           width: 51px;
           background-color: transparent;
           border-radius: 8px;
           z-index: 101;
+          margin-right: 16px;
+          transform: translateY(-5vw);
         }
 
         .article_gap {

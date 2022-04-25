@@ -13,10 +13,107 @@
       #main_content > *::before, #main_content > *::after {
         display: none;
       }
-      
+
       #filter_menu {
         max-width: 1200px;
         margin-inline: auto;
+        margin-bottom: 32px;
+      }
+
+      #filter {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 8px;
+      }
+
+      .filter-btn {
+        aspect-ratio: 1/1;
+        width: 100%;
+        border: 0;
+        cursor: pointer;
+        color: transparent;
+        background-size: cover;
+        opacity: 0.5;
+      }
+
+      .filter-btn.selected {
+        opacity: 1;
+      }
+
+      .filter-btn:hover {
+        outline: 1px solid #00000044;
+      }
+
+      [data-category="alle"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/18.png);
+      }
+
+      [data-category="vm1"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/1.png);
+      }
+
+      [data-category="vm2"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/2.png);
+      }
+
+      [data-category="vm3"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/3.png);
+      }
+
+      [data-category="vm4"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/4.png);
+      }
+
+      [data-category="vm5"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/5.png);
+      }
+
+      [data-category="vm6"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/6.png);
+      }
+
+      [data-category="vm7"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/7.png);
+      }
+
+      [data-category="vm8"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/8.png);
+      }
+
+      [data-category="vm9"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/9.png);
+      }
+
+      [data-category="vm10"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/10.png);
+      }
+
+      [data-category="vm11"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/11.png);
+      }
+
+      [data-category="vm12"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/12.png);
+      }
+
+      [data-category="vm13"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/13.png);
+      }
+
+      [data-category="vm14"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/14.png);
+      }
+
+      [data-category="vm15"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/15.png);
+      }
+
+      [data-category="vm16"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/16.png);
+      }
+
+      [data-category="vm17"] {
+        background-image: url(../wp-content/themes/unesco_theme/billeder/17.png);
       }
 
       .projekt_card {
@@ -131,6 +228,12 @@
         document.querySelector(".selected").classList.remove("selected");
         this.classList.add("selected");
 
+        if (document.querySelector('[data-category="alle"]').classList.contains("selected") === true) {
+          document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = 1)
+        } else {
+          document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = null)
+        };
+
         display(); //kalder på display() funktionen
       }
 
@@ -153,11 +256,9 @@
           }
         });
         document.querySelectorAll(".projekt_card").forEach((card) => 
-        card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%))`);
+        card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%)`);
         //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
       }
-
-      
 
     </script>
   </div>
