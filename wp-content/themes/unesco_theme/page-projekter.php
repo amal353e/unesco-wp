@@ -10,30 +10,61 @@
         box-sizing: border-box;
       }
 
-      .card {
+      #main_content > *::before, #main_content > *::after {
+        display: none;
+      }
+      
+      #filter_menu {
+        max-width: 1200px;
+        margin-inline: auto;
+      }
+
+      .projekt_card {
         display: grid;
         grid-template-rows: 5fr 3fr;
         aspect-ratio: 5/8;
+        box-shadow: #80808040 2px 4px 8px;
+      }
+      
+      .projekt_titel {
+        color: black;
+        font-weight: 700;
       }
 
       #content_projekter {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
         max-width: 1200px;
-        gap:24px;
+        gap: 36px 24px;
         margin-inline: auto;
       }
 
       .card_img {
         height: 100%;
         background-size: cover;
-        max-width: 100%;
         object-fit: cover;
+      }
+
+      .card_text {
+        padding: 8px;
+        display: grid;
+        grid-template-rows: 5rem auto auto;
+      }
+      
+      .card_text > p {
+        color: black;
+      }
+
+      .trin {
+        font-style: italic;
+        margin-top: auto;
+        font-size: 0.9em;
+        opacity: 0.85;
       }
     </style>
 
     <template>
-      <article class="card">
+      <article class="projekt_card">
        	<img class="card_img" src="" alt="" />
           <div class="card_text">
             <h3 class="projekt_titel"></h3>
@@ -90,7 +121,7 @@
         let response = await fetch(url);
         projekter = await response.json();
         display(projekter); //kalder på display() funktionen med projekter som parameter
-        console.log(projekter);
+        //console.log(projekter);
       }
 
       function filterVM() {
@@ -116,10 +147,15 @@
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
+
+            clone.querySelector(".projekt_card").style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%))`;
+            //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
             mainContent.appendChild(clone);
           }
        });
       }
+
+      
 
     </script>
   </div>

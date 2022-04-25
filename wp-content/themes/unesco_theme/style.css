@@ -7,3 +7,46 @@ Author:      Amalie Nielsen */
 div.row:nth-child(7) {
   margin-inline: 5%;
 }
+/* virker ikke */
+.header {
+  background-image: url(/unesco-bb.png);
+  object-fit: cover;
+}
+
+/* fonte */
+@import url("https://use.typekit.net/tvt0zil.css");
+
+h1 {
+  font-family: freight-display-pro, serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: basco-std, serif;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: basco-std, serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: basco-std, serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: sweet-sans-pro, sans-serif;
+  font-weight: 400;
+}
+
+.wp-container-1 {
+  gap: 8em;
+}
+
+.wrapper_forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
