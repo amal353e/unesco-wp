@@ -135,3 +135,27 @@ section::after {
   font-size: 0.9rem;
   padding: 2%;
 }
+
+/* ----------------- footer ------------------- */
+.footer-contact-boxes .footer-content {
+  background-color: #85aece;
+}
+.footer-contact-boxes .footer-bg-accent {
+  background-color: #85aece;
+}
+.copyright {
+  display: none;
+}
+.footer-contact-boxes .col-sm-3 {
+  border: solid #85aece;
+}
+.footer-contact-boxes .col-sm-3:last-child {
+  border: solid #85aece;
+}
+
+@media (min-width: 768px) {
+  .footer-contact-boxes .col-sm-3 {
+    padding-top: 65px;
+    padding-bottom: 60px;
+  }
+}
