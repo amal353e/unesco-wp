@@ -62,6 +62,11 @@ h1.hero-title {
 a.button:nth-child(4) {
   margin-left: 5%;
 }
+/* [data-type="column"] {
+   css relger her 
+  height: 200px; 
+}
+*/
 /* margin-bottom mellem projekt knapper og projekter på forsiden  */
 #section-3 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   margin-bottom: 3%;
@@ -108,6 +113,7 @@ i.fa.icon.reverse.color1 {
   color: #6f9ede;
   background-color: transparent;
   border-color: #6f9ede;
+  border-radius: 120px;
 }
 .button.color2:hover {
   color: #ffffff;
@@ -249,3 +255,9 @@ div.wp-block-columns:nth-child(3) > div:nth-child(1) a:hover {
   text-decoration: none;
   color: #93cc99;
 }
+/* ul .slick-dots {
+  display: none;
+}
+li .slick-active {
+  display: none;
+} */
