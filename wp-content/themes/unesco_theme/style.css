@@ -51,11 +51,24 @@ a:hover {
 .wp-container-1 {
   gap: 8em;
 }
+/* ------------------------------------------------- forside ----------------------------------------------- */
+/* overskrift på splash */
+h1.hero-title {
+  font-family: basco-std, serif;
+  font-size: 5rem;
+}
+/* projekt knapper adskilt */
+a.button:nth-child(3) {
+  margin-right: 5%;
+}
 
+/* skulte billeder nederst på forsiden */
 div.row:nth-child(7),
 div.row:nth-child(9) {
   display: none;
 }
+
+/* flip kort - grid */
 .wrapper_forside {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -74,11 +87,24 @@ i.fa.icon.reverse.color1 {
   color: #6f9ede;
   background-color: transparent;
   border-color: #6f9ede;
+  border-radius: 120px;
 }
 .button:hover {
   outline: none;
   text-decoration: none;
   color: #fff;
+  background-color: #93cc99;
+  border-color: #93cc99;
+  border-radius: 120px;
+}
+
+.button.color2 {
+  color: #6f9ede;
+  background-color: transparent;
+  border-color: #6f9ede;
+}
+.button.color2:hover {
+  color: #ffffff;
   background-color: #93cc99;
   border-color: #93cc99;
 }
