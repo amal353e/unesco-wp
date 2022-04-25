@@ -26,7 +26,7 @@
                     <div class="footer-logo space-bottom-small">
                         <h2><?php mesmerize_print_logo(true); ?></h2>
                     </div>
-                    <?php echo mesmerize_get_footer_copyright(); ?>
+                    
                     <?php mesmerize_print_area_social_icons('footer', 'content', 'footer-social-icons', 5); ?>
                   </div>
                 </div>
