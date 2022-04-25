@@ -17,7 +17,7 @@ div.row:nth-child(7) {
 @import url("https://use.typekit.net/tvt0zil.css");
 
 h1 {
-  font-family: freight-display-pro, serif;
+  font-family: basco-std, serif;
   font-weight: 600;
 }
 
@@ -41,6 +41,13 @@ p {
   font-weight: 400;
 }
 
+a {
+  /* text-decoration: none; */
+  color: white;
+}
+a:hover {
+  color: black;
+}
 .wp-container-1 {
   gap: 8em;
 }
@@ -121,7 +128,7 @@ section::after {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #f5c346;
   color: white;
   transform: rotateY(180deg);
 }
