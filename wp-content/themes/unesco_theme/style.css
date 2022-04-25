@@ -65,6 +65,23 @@ div.row:nth-child(9) {
   margin-bottom: 5%;
 }
 
+i.fa.icon.reverse.color1 {
+  background-color: #6f9ede;
+}
+.button {
+  outline: none;
+  text-decoration: none;
+  color: #6f9ede;
+  background-color: transparent;
+  border-color: #6f9ede;
+}
+.button:hover {
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  background-color: #93cc99;
+  border-color: #93cc99;
+}
 div::before,
 ul::before,
 article::before,
@@ -158,4 +175,28 @@ section::after {
     padding-top: 65px;
     padding-bottom: 60px;
   }
+}
+
+/* ---------------- verdensmål ------------- */
+.wp-block-button__link {
+  outline: none;
+  text-decoration: none;
+  color: #6f9ede;
+  background-color: transparent;
+  border: solid;
+  border-color: #6f9ede;
+}
+.wp-block-button__link:active,
+.wp-block-button__link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:visited {
+  color: #6f9ede;
+}
+.wp-block-button__link:hover {
+  outline: none;
+  text-decoration: none;
+  color: white;
+  background-color: #93cc99;
+  border: solid;
+  border-color: #93cc99;
 }
