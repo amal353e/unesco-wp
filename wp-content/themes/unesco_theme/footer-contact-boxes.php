@@ -14,8 +14,10 @@
                 <div class="col-sm-3 footer-bg-accent">
                     <div>
                         <?php mesmerize_print_area_social_icons('footer', 'content', 'footer-social-icons', 5);?>
+                         
                     </div>
-                    <?php echo mesmerize_get_footer_copyright(); ?>
+                    <img src="wp-content/themes/unesco_theme/billeder/logo.png" alt="UNESCO logo">
+                   
                 </div>
             </div>
         </div>
