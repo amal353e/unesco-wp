@@ -20,7 +20,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/1.png" alt="verdensmål 1">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om afskaffelse af ekstrem fattigdom, at mindske den relative fattigdom og sikre alle adgang til basale ressourcer.</p>
+                        <p>Målet handler om afskaffelse af ekstrem fattigdom, mindske den relative fattigdom og sikre alle adgang til basale ressourcer.</p>
                         <a href="https://www.verdensmaalene.dk/maal/1">Læs mere</a>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/2.png" alt="verdensmål 2">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om at udrydde sult og fejlernæring og skabe bedre forhold for fødevareproduktion.</p>
+                        <p>Målet handler om at udrydde sult, fejlernæring og skabe bedre forhold for fødevareproduktion.</p>
                         <a href="https://www.verdensmaalene.dk/maal/2">Læs mere</a>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/3.png" alt="verdensmål 3">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om at mindske mødredødelighed og dødelighed blandt nyfødte og børn, sætte en stopper for epidemier og øge forebyggelsen af sygdomme samt det generelle sundhedsniveau.</p>
+                        <p>Målet handler om at mindske dødelighed blandt mødre, nyfødte og børn, stoppe epidemier og øge forebyggelsen af sygdomme samt det generelle sundhedsniveau.</p>
                     <a href="https://www.verdensmaalene.dk/maal/3">Læs mere</a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/4.png" alt="verdensmål 4">
                     </div>
                     <div class="flip-card-back">
-                       <p>Målet handler om at sikre både drenge og piger adgang til gratis grundskole uanset forældrenes indkomst niveau og sikre lige adgangs til højere uddannelse samt information helt generelt.</p>
+                       <p>Målet handler om at sikre adgang til gratis grundskole uanset forældrenes indkomst niveau og sikre lige adgangs til højere uddannelse samt information helt generelt.</p>
                        <a href="https://www.verdensmaalene.dk/maal/4">Læs mere</a>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/7.png" alt="verdensmål 7">
                     </div>
                     <div class="flip-card-back">
-                       <p>Målet handler om at sikre en universel adgang til elektricitet til en overkommelig pris og øge andelen af vedvarende energi væsentligt.t</p>
+                       <p>Målet handler om at sikre en universel adgang til elektricitet til en overkommelig pris og øge andelen af vedvarende energi væsentligt.</p>
                        <a href="https://www.verdensmaalene.dk/maal/7">Læs mere</a>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/8.png" alt="verdensmål 8">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om at fremme økonomisk vækst ved at skabe højere produktivitet og teknologiske gennembrud og opnå fuld og produktiv beskæftigelse og anstændige jobs for alle kvinder og mænd i 2030.</p>
+                        <p>Målet handler om at fremme økonomisk vækst ved at skabe højere produktivitet og teknologiske gennembrud, opnå fuld og produktiv beskæftigelse og anstændige jobs for alle i 2030.</p>
                         <a href="https://www.verdensmaalene.dk/maal/8">Læs mere</a>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/11.png" alt="verdensmål 11">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om at garantere adgang til sikre og billige boliger samt opgradere beboelse i slumkvarterer og om investeringer i offentlig transport, skabelsen af grønne offentlige rum og forbedring af byplanlægning og bystyring.</p>
+                        <p>Målet handler om at garantere sikre og billige boliger, opgradere beboelse i slumkvarterer og investeringer i offentlig transport, grønnere områder og forbedring af byplanlægning og bystyring.</p>
                         <a href="https://www.verdensmaalene.dk/maal/11">Læs mere</a>
                     </div>
                 </div>
@@ -153,7 +153,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/12.png" alt="verdensmål 12">
                     </div>
                     <div class="flip-card-back">
-                       <p>Målet handler om effektiv styring af vores fælles naturressourcer, og måden vi bortskaffer giftigt affald og forurenende stoffer samt at tilskynde industrier, virksomheder og forbrugere til at genbruge og reducere deres affald.</p>
+                       <p>Målet handler om effektiv styring af vores fælles naturressourcer, og måden vi bortskaffer giftigt affald og forurenende stoffer samt at genbruge og reducere vores affald.</p>
                        <a href="https://www.verdensmaalene.dk/maal/12">Læs mere</a>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/13.png" alt="verdensmål 13">
                     </div>
                     <div class="flip-card-back">
-                        <p>Målet handler om at begrænse stigningen af den globale gennemsnitstemperatur til to grader over det før-industrielle niveau og styrke modstandsdygtighed og klimatilpasning i sårbare regioner.</p>
+                        <p>Målet handler om at begrænse stigningen af den globale gennemsnitstemperatur til to grader, styrke modstandsdygtighed og klimatilpasning.</p>
                         <a href="https://www.verdensmaalene.dk/maal/13">Læs mere</a>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/14.png" alt="verdensmål 14">
                     </div>
                     <div class="flip-card-back">
-                      <p>Målet handler om at skabe en ramme for bæredygtig forvaltning og beskyttelse af havene og kystnære økosystemer og bedre bevarelse og bæredygtig udnyttelse af havbaserede ressourcer.</p>
+                      <p>Målet handler om at skabe en ramme for bæredygtig forvaltning og beskyttelse af havene og kystnære økosystemer.</p>
                       <a href="https://www.verdensmaalene.dk/maal/14">Læs mere</a>
                     </div>
                 </div>
@@ -189,7 +189,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/15.png" alt="verdensmål 15">
                     </div>
                     <div class="flip-card-back">
-                     <p>Målet handler om at bevare og genoprette brugen af terrestriske økosystemer som skove, vådområder, tørre områder og bjerge inden 2030 og fremme bæredygtig forvaltning af skove og standsning af afskovning.</p>
+                     <p>Målet handler om at bevare og genoprette brugen af terrestriske økosystemer inden 2030 og fremme bæredygtig forvaltning af skove og standsning af afskovning.</p>
                      <a href="https://www.verdensmaalene.dk/maal/15">Læs mere</a>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ mesmerize_get_header('homepage');
                         <img src="wp-content/themes/unesco_theme/billeder/16.png" alt="verdensmål 16">
                     </div>
                     <div class="flip-card-back">
-                     <p>Målet handler om at støtte fredelige og inkluderede samfund, give alle adgang til retssikkerhed og opbygge effektive, ansvarlige og inddragende institutioner på alle niveauer.</p>
+                     <p>Målet handler om at støtte fredelige og inkluderede samfund, give alle adgang til retssikkerhed og opbygge effektive institutioner på alle niveauer.</p>
                      <a href="https://www.verdensmaalene.dk/maal/16">Læs mere</a>
                     </div>
                 </div>
