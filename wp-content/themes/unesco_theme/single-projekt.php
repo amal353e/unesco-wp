@@ -51,9 +51,9 @@
 			
 			  function display() {;
 				  document.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
-				  document.querySelector(".lang_beskrivelse").textContent = `${city.lang_beskrivelse}`;
-			  	document.querySelector(".laerere").textContent = `${city.laerere}`;
-			  	document.querySelector(".elever").textContent = `${city.elever}`;
+				  document.querySelector(".lang_beskrivelse").textContent = `${projekt.lang_beskrivelse}`;
+			  	document.querySelector(".laerere").textContent = `${projekt.laerere}`;
+			  	document.querySelector(".elever").textContent = `${projekt.elever}`;
 			  }
 
 		  	document.getElementById("close").addEventListener("click", () => {
