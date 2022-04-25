@@ -128,7 +128,10 @@ section::after {
 }
 
 .flip-card-back {
-  background-color: #f5c346;
+  background-color: #93cc99;
   color: white;
   transform: rotateY(180deg);
+  font-family: sweet-sans-pro, sans-serif;
+  font-size: 0.9rem;
+  padding: 2%;
 }
