@@ -44,7 +44,7 @@ p {
 
 a {
   /* text-decoration: none; */
-  color: white;
+  color: #6f9ede;
 }
 a:hover {
   color: black;
@@ -155,6 +155,10 @@ section::after {
   background-color: transparent;
   perspective: 3000px;
   aspect-ratio: 1/1;
+}
+.flip-card a {
+  /* text-decoration: none; */
+  color: white;
 }
 
 .flip-card-inner {
