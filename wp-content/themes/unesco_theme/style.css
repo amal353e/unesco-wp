@@ -41,6 +41,13 @@ p {
   font-weight: 400;
 }
 
+a {
+  /* text-decoration: none; */
+  color: white;
+}
+a:hover {
+  color: black;
+}
 .wp-container-1 {
   gap: 8em;
 }
@@ -121,7 +128,7 @@ section::after {
 }
 
 .flip-card-back {
-  background-color: #85aece;
+  background-color: #f5c346;
   color: white;
   transform: rotateY(180deg);
 }
