@@ -58,6 +58,11 @@ h1.hero-title {
   font-family: basco-std, serif;
   font-size: 5rem;
 }
+/* nav font */
+ul.dropdown-menu li {
+  font-family: basco-std, serif !important;
+  font-weight: 500 !important;
+}
 /* projekt knapper adskilt på forsiden */
 a.button:nth-child(4) {
   margin-left: 5%;
