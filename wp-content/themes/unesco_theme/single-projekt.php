@@ -2,6 +2,11 @@
 
     <div id='page-content' class="page-content">
       <style>
+
+        h1, h2, h3, p {
+          text-align: left !important;
+        }
+
         #close {
           padding: 4px 12px;
           font-size: 32px;

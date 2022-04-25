@@ -11,6 +11,10 @@
         box-sizing: border-box;
       }
 
+      h1, h2, h3, p {
+        text-align: left !important;
+      }
+
       #main_content {
         padding-inline: 8px;
         max-width: 1200px;
