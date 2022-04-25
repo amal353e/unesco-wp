@@ -44,3 +44,9 @@ p {
 .wp-container-1 {
   gap: 8em;
 }
+
+.wrapper_forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
