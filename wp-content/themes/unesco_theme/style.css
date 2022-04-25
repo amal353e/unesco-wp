@@ -45,8 +45,81 @@ p {
   gap: 8em;
 }
 
+div.row:nth-child(7),
+div.row:nth-child(9) {
+  display: none;
+}
 .wrapper_forside {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
+  margin-inline: 5%;
+  margin-bottom: 5%;
+}
+
+div::before,
+ul::before,
+article::before,
+aside::before,
+details::before,
+figcaption::before,
+figure::before,
+footer::before,
+header::before,
+hgroup::before,
+menu::before,
+nav::before,
+section::before,
+div::after,
+ul::after,
+article::after,
+aside::after,
+details::after,
+figcaption::after,
+figure::after,
+footer::after,
+header::after,
+hgroup::after,
+menu::after,
+nav::after,
+section::after {
+  display: none;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 3000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateX(180deg);
 }
