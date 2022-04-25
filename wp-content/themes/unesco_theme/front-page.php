@@ -13,26 +13,37 @@ mesmerize_get_header('homepage');
                 the_content();
             endwhile;
             ?>
-            hvad med her
+            
             <div class="wrapper_forside">
-                <img src="1.png" alt="verdensmål 1">
-                <img src="2.png" alt="verdensmål 2">
-                <img src="3.png" alt="verdensmål 3">
-                <img src="4.png" alt="verdensmål 4">
-                <img src="5.png" alt="verdensmål 5">
-                <img src="6.png" alt="verdensmål 6">
-                <img src="7.png" alt="verdensmål 7">
-                <img src="8.png" alt="verdensmål 8">
-                <img src="9.png" alt="verdensmål 9">
-                <img src="10.png" alt="verdensmål 10">
-                <img src="11.png" alt="verdensmål 11">
-                <img src="12.png" alt="verdensmål 12">
-                <img src="13.png" alt="verdensmål 13">
-                <img src="14.png" alt="verdensmål 14">
-                <img src="15.png" alt="verdensmål 15">
-                <img src="16.png" alt="verdensmål 16">
-                <img src="17.png" alt="verdensmål 17">
-                <img src="18.png" alt="verdensmål 18">
+                <img src="wp-content/themes/unesco_theme/billeder/1.png" alt="verdensmål 1">
+                <img src="wp-content/themes/unesco_theme/billeder/2.png" alt="verdensmål 2">
+                <img src="wp-content/themes/unesco_theme/billeder/3.png" alt="verdensmål 3">
+                <img src="wp-content/themes/unesco_theme/billeder/4.png" alt="verdensmål 4">
+                <img src="wp-content/themes/unesco_theme/billeder/5.png" alt="verdensmål 5">
+                <img src="wp-content/themes/unesco_theme/billeder/6.png" alt="verdensmål 6">
+                <img src="wp-content/themes/unesco_theme/billeder/7.png" alt="verdensmål 7">
+                <img src="wp-content/themes/unesco_theme/billeder/8.png" alt="verdensmål 8">
+                <img src="wp-content/themes/unesco_theme/billeder/9.png" alt="verdensmål 9">
+                <img src="wp-content/themes/unesco_theme/billeder/10.png" alt="verdensmål 10">
+                <img src="wp-content/themes/unesco_theme/billeder/11.png" alt="verdensmål 11">
+                <img src="wp-content/themes/unesco_theme/billeder/12.png" alt="verdensmål 12">
+                <img src="wp-content/themes/unesco_theme/billeder/13.png" alt="verdensmål 13">
+                <img src="wp-content/themes/unesco_theme/billeder/14.png" alt="verdensmål 14">
+                <img src="wp-content/themes/unesco_theme/billeder/15.png" alt="verdensmål 15">
+                <img src="wp-content/themes/unesco_theme/billeder/16.png" alt="verdensmål 16">
+                <img src="wp-content/themes/unesco_theme/billeder/17.png" alt="verdensmål 17">
+                <img src="wp-content/themes/unesco_theme/billeder/18.png" alt="verdensmål 18">
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h1>overskrift 1</h1>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Afskaf fattigdom</h1>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
