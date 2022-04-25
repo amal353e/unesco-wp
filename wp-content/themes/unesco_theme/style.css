@@ -121,7 +121,7 @@ section::after {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #85aece;
   color: white;
   transform: rotateY(180deg);
 }
