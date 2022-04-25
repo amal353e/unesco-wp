@@ -52,6 +52,7 @@ div.row:nth-child(9) {
 .wrapper_forside {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
   margin-inline: 5%;
   margin-bottom: 5%;
@@ -89,6 +90,7 @@ section::after {
 .flip-card {
   background-color: transparent;
   perspective: 3000px;
+  aspect-ratio: 1/1;
 }
 
 .flip-card-inner {
@@ -101,7 +103,7 @@ section::after {
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
 
 .flip-card-front,
@@ -121,5 +123,5 @@ section::after {
 .flip-card-back {
   background-color: #2980b9;
   color: white;
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
