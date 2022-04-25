@@ -21,9 +21,10 @@
 
       .projekt_card {
         display: grid;
-        grid-template-rows: 5fr 3fr;
-        aspect-ratio: 5/8;
+        grid-template-rows: 1fr 1fr;
+        aspect-ratio: 2/3;
         box-shadow: #80808040 2px 4px 8px;
+        cursor: pointer;
       }
       
       .projekt_titel {
