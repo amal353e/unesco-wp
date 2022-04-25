@@ -147,12 +147,13 @@
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
-
-            clone.querySelector(".projekt_card").style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%))`;
-            //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
+            clone.querySelector("article").addEventListener("click", () => location.href = `${projekt.link}`); //gør kortene klikbart og kalder på showPopUp() funktionen med city som parameter
             mainContent.appendChild(clone);
           }
-       });
+        });
+        document.querySelectorAll(".projekt_card").forEach((card) => 
+        card.style.backgroundColor = `hsl(${Math.floor(Math.random()*36)*10},80%,75%))`);
+        //giver hvert kort en tilfældig baggrundsfarve ud af 36 farver
       }
 
       
