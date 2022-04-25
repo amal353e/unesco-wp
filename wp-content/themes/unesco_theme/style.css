@@ -63,6 +63,12 @@ ul.dropdown-menu li {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
 }
+ul.dropdown-menu.active-line-bottom
+  > li:not(.current-menu-item):not(.current_page_item):hover
+  > a {
+  color: #93cc99;
+}
+
 /* projekt knapper adskilt på forsiden */
 a.button:nth-child(4) {
   margin-left: 5%;
