@@ -81,6 +81,8 @@ div.row:nth-child(9) {
 i.fa.icon.reverse.color1 {
   background-color: #6f9ede;
 }
+
+/* knapper */
 .button {
   outline: none;
   text-decoration: none;
@@ -97,7 +99,7 @@ i.fa.icon.reverse.color1 {
   border-color: #93cc99;
   border-radius: 120px;
 }
-
+/* knapper på sitets resterende knapper */
 .button.color2 {
   color: #6f9ede;
   background-color: transparent;
@@ -108,6 +110,8 @@ i.fa.icon.reverse.color1 {
   background-color: #93cc99;
   border-color: #93cc99;
 }
+
+/*  */
 div::before,
 ul::before,
 article::before,
@@ -136,7 +140,7 @@ nav::after,
 section::after {
   display: none;
 }
-
+/* flip kort */
 .flip-card {
   background-color: transparent;
   perspective: 3000px;
@@ -178,6 +182,29 @@ section::after {
   font-size: 0.9rem;
   padding: 2%;
 }
+/* ---------------- verdensmål ------------- */
+.wp-block-button__link {
+  outline: none;
+  text-decoration: none;
+  color: #6f9ede;
+  background-color: transparent;
+  border: solid;
+  border-color: #6f9ede;
+}
+.wp-block-button__link:active,
+.wp-block-button__link:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:visited {
+  color: #6f9ede;
+}
+.wp-block-button__link:hover {
+  outline: none;
+  text-decoration: none;
+  color: white;
+  background-color: #93cc99;
+  border: solid;
+  border-color: #93cc99;
+}
 
 /* ----------------- footer ------------------- */
 .footer-contact-boxes .footer-content {
@@ -201,28 +228,4 @@ section::after {
     padding-top: 65px;
     padding-bottom: 60px;
   }
-}
-
-/* ---------------- verdensmål ------------- */
-.wp-block-button__link {
-  outline: none;
-  text-decoration: none;
-  color: #6f9ede;
-  background-color: transparent;
-  border: solid;
-  border-color: #6f9ede;
-}
-.wp-block-button__link:active,
-.wp-block-button__link:focus,
-.wp-block-button__link:hover,
-.wp-block-button__link:visited {
-  color: #6f9ede;
-}
-.wp-block-button__link:hover {
-  outline: none;
-  text-decoration: none;
-  color: white;
-  background-color: #93cc99;
-  border: solid;
-  border-color: #93cc99;
 }
