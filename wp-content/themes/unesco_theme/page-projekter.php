@@ -13,16 +13,45 @@
 
       #main_content {
         padding-inline: 8px;
+        max-width: 1200px;
+        margin-inline: auto;
       }
 
       #main_content > *::before, #main_content > *::after {
         display: none;
       }
 
-      #filter_menu {
-        max-width: 1200px;
+      .projekt_flex {
+        display: flex;
+        justify-content: space-around;
+        max-width: 800px;
         margin-inline: auto;
-        margin-bottom: 32px;
+      }
+
+      .btn-projekt {
+        outline: none;
+        text-decoration: none;
+        color: #6f9ede;
+        background-color: transparent;
+        border: #6f9ede 2px solid;
+        border-radius: 120px;
+        padding: 0.55rem 1.5rem;
+        cursor: pointer;
+        transition: 0.4s;
+        font-family: "Open Sans";
+      }
+
+      .btn-projekt:hover {
+        outline: none;
+        text-decoration: none;
+        color: #fff;
+        background-color: #93cc99;
+        border-color: #93cc99;
+        border-radius: 120px;
+      }
+
+      #filter_menu, .intro {
+        margin-bottom: 48px;
       }
 
       #filter {
@@ -146,9 +175,7 @@
       #content_projekter {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-        max-width: 1200px;
         gap: 36px 24px;
-        margin-inline: auto;
       }
 
       .card_img {
@@ -188,7 +215,23 @@
 
     <main id="main_content">
 
+      <div class="intro">
+        <h1>Projekter</h1>
+        <p>
+          På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. Projekterne er
+          alle med udgangspunkt i FNs 17 verdensmål. Dette kan bruges som inspiration og motivation
+          samt udgøre grundlaget for eksempelvis skoleprojekter, undersøgelser eller lignende.
+          Der kan også findes inspiration under undervisningsmaterialer, her finder du bla. undervisningsforløb
+          som tager udgangspunkt i FN's 17 verdensmål samt globalt medborgerskab og bæredygtig udvilking.
+        </p>
+        <div class="projekt_flex">
+          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/upload-jeres-projekt/'">Upload projekt</button>
+          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/soeg-tilskud/'">Søg tilskud</button>
+        </div>
+      </div>
+
       <div id="filter_menu">
+      <h2>Projektfilter</h2>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>

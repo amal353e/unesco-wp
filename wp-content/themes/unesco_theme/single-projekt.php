@@ -33,11 +33,11 @@
           <h2 class="projekt_titel"></h2>
           <p class="lang_beskrivelse"></p>
           <article class="article_gap">
-            <h3>Til lærere:</h3>
+            <h3 class="til_laerere">Til lærere:</h3>
             <p class="laerere"></p>
           </article>
           <article class="article_gap">
-            <h3>Til elever:</h3>
+            <h3 class="til_elever">Til elever:</h3>
             <p class="elever"></p>
           </article>
       	</section>
@@ -53,11 +53,15 @@
 			  	display();
 			  }
 			
-			  function display() {;
+			  function display() {
 				  document.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
 				  document.querySelector(".lang_beskrivelse").innerHTML = `${projekt.lang_beskrivelse}`;
-			  	document.querySelector(".laerere").innerHTML = `${projekt.laerere}`;
-			  	document.querySelector(".elever").innerHTML = `${projekt.elever}`;
+          if (projekt.laerere !== "") {
+            document.querySelector(".laerere").innerHTML = `${projekt.laerere}`;
+          } else document.querySelector(".til_laerere").textContent = ""; 
+			  	if (projekt.elever !== "") {
+            document.querySelector(".elever").innerHTML = `${projekt.elever}`;
+          } else document.querySelector(".til_elever").textContent = ""; 
 			  }
 
 		  	document.getElementById("close").addEventListener("click", () => {
