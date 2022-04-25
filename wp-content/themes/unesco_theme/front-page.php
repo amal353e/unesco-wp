@@ -14,6 +14,28 @@ mesmerize_get_header('homepage');
             endwhile;
             ?>
             hvad med her
+        <div class="wrapper">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+            <img src="" alt="verdensmål ">
+
+
+        </div>
         </div>
     </div>
 
