@@ -1,6 +1,7 @@
 <?php mesmerize_get_header(); ?>
 
 
+
   <div id='page-content' class="page-content">
 
     <style>
@@ -8,6 +9,10 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+      }
+
+      #main_content {
+        padding-inline: 8px;
       }
 
       #main_content > *::before, #main_content > *::after {
@@ -34,6 +39,10 @@
         color: transparent;
         background-size: cover;
         opacity: 0.5;
+        image-rendering: crisp-edges;
+        image-rendering: -moz-crisp-edges;          /* Firefox */
+        image-rendering: -o-crisp-edges;            /* Opera */
+        image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
       }
 
       .filter-btn.selected {
