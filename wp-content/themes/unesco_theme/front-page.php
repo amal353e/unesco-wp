@@ -13,6 +13,7 @@ mesmerize_get_header('homepage');
                 the_content();
             endwhile;
             ?>
+            hvad med her
         </div>
     </div>
 
