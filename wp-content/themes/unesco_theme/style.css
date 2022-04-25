@@ -39,6 +39,7 @@ h4 {
 p {
   font-family: sweet-sans-pro, sans-serif;
   font-weight: 400;
+  color: rgb(26, 25, 25);
 }
 
 a {
@@ -57,11 +58,14 @@ h1.hero-title {
   font-family: basco-std, serif;
   font-size: 5rem;
 }
-/* projekt knapper adskilt */
-a.button:nth-child(3) {
-  margin-right: 5%;
+/* projekt knapper adskilt på forsiden */
+a.button:nth-child(4) {
+  margin-left: 5%;
 }
-
+/* margin-bottom mellem projekt knapper og projekter på forsiden  */
+#section-3 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  margin-bottom: 3%;
+}
 /* skulte billeder nederst på forsiden */
 div.row:nth-child(7),
 div.row:nth-child(9) {
@@ -182,6 +186,11 @@ section::after {
   font-size: 0.9rem;
   padding: 2%;
 }
+
+.flip-card-back p {
+  color: white;
+}
+
 /* ---------------- verdensmål ------------- */
 .wp-block-button__link {
   outline: none;
@@ -228,4 +237,14 @@ section::after {
     padding-top: 65px;
     padding-bottom: 60px;
   }
+}
+
+/* --------------------------------- verdensmålsskoler - side ------------------------- */
+div.wp-block-columns:nth-child(3) > div:nth-child(1) a {
+  text-decoration: none;
+  color: #85aece;
+}
+div.wp-block-columns:nth-child(3) > div:nth-child(1) a:hover {
+  text-decoration: none;
+  color: #93cc99;
 }
