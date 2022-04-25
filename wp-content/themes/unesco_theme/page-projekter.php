@@ -120,10 +120,15 @@
         display: grid;
         grid-template-rows: 1fr 1fr;
         aspect-ratio: 2/3;
-        box-shadow: #80808040 2px 4px 8px;
+        box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
+        transition: 0.3s box-shadow;
       }
       
+      .projekt_card:hover {
+        box-shadow: #80808080 2px 4px 16px 4px;
+      }
+
       .projekt_titel {
         color: black;
         font-weight: 700;
