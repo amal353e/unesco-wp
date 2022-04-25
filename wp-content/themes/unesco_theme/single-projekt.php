@@ -3,7 +3,6 @@
     <div id='page-content' class="page-content">
       <style>
         #close {
-          position: absolute;
           padding: 4px 12px;
           font-size: 32px;
           font-weight: bolder;
@@ -12,10 +11,14 @@
           aspect-ratio: 1/1;
           width: 51px;
           background-color: transparent;
-          border-radius: 8px;
           z-index: 101;
-          margin-right: 16px;
-          transform: translateY(-5vw);
+          margin-left: 16px;
+        }
+
+        #single_post {
+          padding-inline: 8px;
+          max-width: 1200px;
+          margin-inline: auto;
         }
 
         .article_gap {
@@ -52,9 +55,9 @@
 			
 			  function display() {;
 				  document.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
-				  document.querySelector(".lang_beskrivelse").textContent = `${projekt.lang_beskrivelse}`;
-			  	document.querySelector(".laerere").textContent = `${projekt.laerere}`;
-			  	document.querySelector(".elever").textContent = `${projekt.elever}`;
+				  document.querySelector(".lang_beskrivelse").innerHTML = `${projekt.lang_beskrivelse}`;
+			  	document.querySelector(".laerere").innerHTML = `${projekt.laerere}`;
+			  	document.querySelector(".elever").innerHTML = `${projekt.elever}`;
 			  }
 
 		  	document.getElementById("close").addEventListener("click", () => {
