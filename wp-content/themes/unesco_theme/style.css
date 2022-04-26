@@ -81,10 +81,11 @@ ul.dropdown-menu.active-line-bottom
   }
 }
 
-#menu-item-882::after {
+#menu-item-882 a::after {
   font-family: FontAwesome;
   font-weight: 500;
   content: "\f002";
+  padding-left: 8px;
 }
 
 /* ------------------------------------------------- forside ----------------------------------------------- */
