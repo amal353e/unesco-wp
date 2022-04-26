@@ -89,7 +89,7 @@ ul.dropdown-menu.active-line-bottom
 }
 
 li.menu-item a {
-  border: none !important;
+  border-bottom: 3px solid transparent !important;
 }
 
 li.menu-item:hover a {
