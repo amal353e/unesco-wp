@@ -54,6 +54,11 @@
         border-radius: 120px;
       }
 
+      .intro {
+        max-width: 680px;
+        margin-inline: auto;
+      }
+
       #filter_menu, .intro {
         margin-bottom: 48px;
       }
