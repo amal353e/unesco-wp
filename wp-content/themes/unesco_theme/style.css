@@ -276,7 +276,7 @@ section::after {
   margin: 0 !important;
 }
 .footer_logo {
-  width: 80%;
+  max-width: 128px;
 }
 
 /*.copyright {
