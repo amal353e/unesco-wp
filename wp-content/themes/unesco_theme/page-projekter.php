@@ -19,6 +19,10 @@
         text-align: left !important;
       }
 
+      .filtrerh3{
+        text-align: center;
+      }
+
       #main_content {
         padding-inline: 8px;
         max-width: 1200px;
@@ -250,7 +254,7 @@
       </div>
 
       <div id="filter_menu">
-      <h3>Filtrer projekter ud fra de 17 verdensmål:</h3>
+      <h3 class="filtrerh3">Filtrer projekter ud fra de 17 verdensmål:</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
