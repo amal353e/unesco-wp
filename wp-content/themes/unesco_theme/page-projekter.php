@@ -182,6 +182,12 @@
         font-weight: 700;
       }
 
+      .kort_beskrivelse::after {
+        content: "Læs mere";
+        text-decoration: underline;
+        padding-left: 0.25rem;
+      }
+
       #content_projekter {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
