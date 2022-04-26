@@ -272,6 +272,13 @@ section::after {
 .footer-contact-boxes .footer-bg-accent {
   background-color: #85aece;
 }
+.footer-social-icons {
+  margin: 0;
+}
+.footer_logo {
+  width: 80%;
+}
+
 /*.copyright {
   display: none;
 }*/

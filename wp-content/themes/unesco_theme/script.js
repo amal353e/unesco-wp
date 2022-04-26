@@ -9,5 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "src",
     "https://amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/wp-content/uploads/2022/04/cropped-cropped-unesco-logo-hvid-simpelt-2.png"
   );
+  logo.setAttribute("class", "footer_logo");
   parent.appendChild(logo);
 });
