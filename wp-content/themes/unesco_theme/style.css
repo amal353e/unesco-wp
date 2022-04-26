@@ -272,9 +272,16 @@ section::after {
 .footer-contact-boxes .footer-bg-accent {
   background-color: #85aece;
 }
-.copyright {
-  display: none;
+.footer-social-icons {
+  margin: 0 !important;
 }
+.footer_logo {
+  max-width: 128px;
+}
+
+/*.copyright {
+  display: none;
+}*/
 .footer-contact-boxes .col-sm-3 {
   border: solid #85aece;
 }

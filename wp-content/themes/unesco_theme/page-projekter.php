@@ -54,6 +54,11 @@
         border-radius: 120px;
       }
 
+      .intro {
+        max-width: 680px;
+        margin-inline: auto;
+      }
+
       #filter_menu, .intro {
         margin-bottom: 48px;
       }
@@ -175,6 +180,12 @@
       .projekt_titel {
         color: black;
         font-weight: 700;
+      }
+
+      .kort_beskrivelse::after {
+        content: "Læs mere";
+        text-decoration: underline;
+        padding-left: 0.25rem;
       }
 
       #content_projekter {
