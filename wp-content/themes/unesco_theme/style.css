@@ -81,6 +81,12 @@ ul.dropdown-menu.active-line-bottom
   }
 }
 
+#menu-item-882::after {
+  font-family: FontAwesome;
+  font-weight: 500;
+  content: "\f002";
+}
+
 /* ------------------------------------------------- forside ----------------------------------------------- */
 /* overskrift på splash */
 h1.hero-title {
