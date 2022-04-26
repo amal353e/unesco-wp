@@ -308,11 +308,11 @@
         document.querySelector(".selected").classList.remove("selected");
         this.classList.add("selected");
 
-        if (document.querySelector('[data-category="alle"]').classList.contains("selected") === true) {
+        /*if (document.querySelector('[data-category="alle"]').classList.contains("selected") === true) {
           document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = 1)
         } else {
           document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = null)
-        };
+        };*/
 
         display(); //kalder på display() funktionen
       }
