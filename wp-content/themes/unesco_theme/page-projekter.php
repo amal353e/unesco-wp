@@ -236,7 +236,7 @@
     <main id="main_content">
 
       <div class="intro">
-        <h1>Projekter</h1>
+        <h2>Projekter</h2>
         <p>
           På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. Projekterne er
           alle med udgangspunkt i FNs 17 verdensmål. Dette kan bruges som inspiration og motivation
