@@ -92,7 +92,7 @@
         cursor: pointer;
         color: transparent;
         background-size: cover;
-        opacity: 0.25;
+        opacity: 0.5;
         image-rendering: crisp-edges;
         image-rendering: -moz-crisp-edges;          /* Firefox */
         image-rendering: -o-crisp-edges;            /* Opera */
@@ -105,7 +105,7 @@
       }
 
       .filter-btn:hover {
-        opacity: 0.5;
+        opacity: 0.8;
       }
 
       [data-category="alle"] {
