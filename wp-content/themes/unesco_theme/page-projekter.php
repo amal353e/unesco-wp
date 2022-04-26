@@ -294,7 +294,7 @@
         const filterButtons = document.querySelectorAll(".filter-btn");
         filterButtons.forEach((button) => {
           button.addEventListener("click", filterVM); //knapperne kalder på filterVM() funktionen, når man klikker
-          button.style.opacity = 1;
+          /*button.style.opacity = 1;*/
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
