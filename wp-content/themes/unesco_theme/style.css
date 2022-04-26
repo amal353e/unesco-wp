@@ -347,16 +347,16 @@ li .slick-active {
 }
 
 /* knap - globalt medborgerskab */
-.wp-block-button__link !important {
-  color: #6f9ede;
-  background-color: transparent;
-  border-color: #6f9ede;
-  border-radius: 120px;
+.wp-block-button__link {
+  color: #6f9ede !important;
+  background-color: transparent !important;
+  border-color: #6f9ede !important;
+  border-radius: 120px !important;
 }
 
-.wp-block-button__link:hover !important {
-  color: white;
-  background-color: #93cc99;
-  border-color: #93cc99;
-  border-radius: 120px;
+.wp-block-button__link:hover {
+  color: white !important;
+  background-color: #93cc99 !important;
+  border-color: #93cc99 !important;
+  border-radius: 120px !important;
 }
