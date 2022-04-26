@@ -88,6 +88,14 @@ ul.dropdown-menu.active-line-bottom
   padding-left: 8px;
 }
 
+li.menu-item a {
+  border: none !important;
+}
+
+li.menu-item:hover a {
+  border-bottom: 3px solid white !important;
+}
+
 /* ------------------------------------------------- forside ----------------------------------------------- */
 /* overskrift på splash */
 h1.hero-title {
@@ -375,6 +383,6 @@ li .slick-active {
   border-radius: 120px !important;
 }
 
-#menu-item-882 > a:nth-child(1) {
+/*#menu-item-882 > a:nth-child(1) {
   background-image: url("wp-content/themes/unesco_theme/billeder/10.png");
-}
+}*/
