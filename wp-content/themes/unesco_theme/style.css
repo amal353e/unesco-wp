@@ -273,7 +273,7 @@ section::after {
   background-color: #85aece;
 }
 .footer-social-icons {
-  margin: 0;
+  margin: 0 !important;
 }
 .footer_logo {
   width: 80%;
