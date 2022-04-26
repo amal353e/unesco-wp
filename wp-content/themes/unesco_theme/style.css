@@ -272,9 +272,9 @@ section::after {
 .footer-contact-boxes .footer-bg-accent {
   background-color: #85aece;
 }
-.copyright {
+/*.copyright {
   display: none;
-}
+}*/
 .footer-contact-boxes .col-sm-3 {
   border: solid #85aece;
 }
