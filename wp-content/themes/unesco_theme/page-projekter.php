@@ -11,7 +11,11 @@
         box-sizing: border-box;
       }
 
-      h1, h2, h3, p {
+      h1{
+        text-align: center;
+      }
+      
+      h2, h3, p {
         text-align: left !important;
       }
 
