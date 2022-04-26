@@ -20,7 +20,7 @@
       }
 
       .filtrerh3{
-        text-align: center;
+        text-align: center !important;
       }
 
       #main_content {
@@ -65,6 +65,7 @@
       .intro {
         max-width: 680px;
         margin-inline: auto;
+        grid-template-columns: 1fr 1fr;
       }
 
       #filter_menu, .intro {
