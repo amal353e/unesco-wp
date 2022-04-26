@@ -92,7 +92,7 @@
         cursor: pointer;
         color: transparent;
         background-size: cover;
-        opacity: 0.25;
+        opacity: 0.5;
         image-rendering: crisp-edges;
         image-rendering: -moz-crisp-edges;          /* Firefox */
         image-rendering: -o-crisp-edges;            /* Opera */
@@ -105,7 +105,7 @@
       }
 
       .filter-btn:hover {
-        opacity: 0.5;
+        opacity: 0.8;
       }
 
       [data-category="alle"] {
@@ -300,7 +300,7 @@
         const filterButtons = document.querySelectorAll(".filter-btn");
         filterButtons.forEach((button) => {
           button.addEventListener("click", filterVM); //knapperne kalder på filterVM() funktionen, når man klikker
-          button.style.opacity = 1;
+          // button.style.opacity = 1;
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
@@ -319,11 +319,11 @@
         document.querySelector(".selected").classList.remove("selected");
         this.classList.add("selected");
 
-        /*if (document.querySelector('[data-category="alle"]').classList.contains("selected") === true) {
-          document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = 1)
-        } else {
-          document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = null)
-        };*/
+        // if (document.querySelector('[data-category="alle"]').classList.contains("selected") === true) {
+        //   document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = 1)
+        // } else {
+        //   document.querySelectorAll(".filter-btn").forEach((button) => button.style.opacity = null)
+        // };
 
         display(); //kalder på display() funktionen
       }
