@@ -373,3 +373,7 @@ li .slick-active {
   border-color: #93cc99 !important;
   border-radius: 120px !important;
 }
+
+#menu-item-882 > a:nth-child(1) {
+  background-image: url("wp-content/themes/unesco_theme/billeder/10.png");
+}
