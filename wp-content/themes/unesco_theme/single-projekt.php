@@ -7,6 +7,17 @@
           text-align: left !important;
         }
 
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+
         #close {
           padding: 4px 12px;
           font-size: 32px;
@@ -17,13 +28,24 @@
           width: 51px;
           background-color: transparent;
           z-index: 101;
-          margin-left: 16px;
         }
 
-        #single_post {
+        #main_content {
           padding-inline: 8px;
           max-width: 1200px;
           margin-inline: auto;
+        }
+
+        #single_post {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 40px;
+        }
+
+        @media (max-width: 640px) {
+          #single_post {
+            display: block;
+          }
         }
 
         .article_gap {
@@ -34,17 +56,22 @@
 
       <main id="main_content">
         <div id="close">&#x2715;</div>
+        <h2 class="projekt_titel"></h2>
         <section id="single_post">
-          <h2 class="projekt_titel"></h2>
-          <p class="lang_beskrivelse"></p>
+          <div class="col_left">
+            <p class="lang_beskrivelse"></p>
+          </div>
+          <div class="col_right">
+            <img class="projekt_img" src="" alt="">
+          </div>
           <article class="article_gap">
-            <h3 class="til_laerere">Til lærere:</h3>
-            <p class="laerere"></p>
-          </article>
-          <article class="article_gap">
-            <h3 class="til_elever">Til elever:</h3>
-            <p class="elever"></p>
-          </article>
+              <h3 class="til_laerere">Til lærere:</h3>
+              <p class="laerere"></p>
+            </article>
+            <article class="article_gap">
+              <h3 class="til_elever">Til elever:</h3>
+              <p class="elever"></p>
+            </article>
       	</section>
       </main>
 
@@ -61,6 +88,7 @@
 			  function display() {
 				  document.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
 				  document.querySelector(".lang_beskrivelse").innerHTML = `${projekt.lang_beskrivelse}`;
+          document.querySelector(".projekt_img").src = `${projekt.billede.guid}`;
           if (projekt.laerere !== "") {
             document.querySelector(".laerere").innerHTML = `${projekt.laerere}`;
           } else document.querySelector(".til_laerere").textContent = ""; 

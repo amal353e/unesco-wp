@@ -71,19 +71,20 @@
         cursor: pointer;
         color: transparent;
         background-size: cover;
-        opacity: 0.5;
+        opacity: 0.25;
         image-rendering: crisp-edges;
         image-rendering: -moz-crisp-edges;          /* Firefox */
         image-rendering: -o-crisp-edges;            /* Opera */
         image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming)*/
+        transition: 0.1s opacity;
       }
 
       .filter-btn.selected {
-        opacity: 1;
+        opacity: 1 !important;
       }
 
       .filter-btn:hover {
-        outline: 1px solid #00000044;
+        opacity: 0.5;
       }
 
       [data-category="alle"] {
@@ -271,7 +272,10 @@
       document.addEventListener("DOMContentLoaded", () => {
         //venter indtil siden er loadet før knapperne bliver funktionelle
         const filterButtons = document.querySelectorAll(".filter-btn");
-        filterButtons.forEach((button) => button.addEventListener("click", filterVM)); //knapperne kalder på filterVM() funktionen, når man klikker
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", filterVM); //knapperne kalder på filterVM() funktionen, når man klikker
+          button.style.opacity = 1;
+        }); 
         fetchData(); //kalder på fetchData() funktionen
       });
 
