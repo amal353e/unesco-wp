@@ -214,6 +214,7 @@
         height: 100%;
         background-size: cover;
         object-fit: cover;
+        aspect-ratio: 3/2;
       }
 
       .card_text {
