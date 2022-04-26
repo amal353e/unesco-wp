@@ -237,17 +237,16 @@
 
       <div class="intro">
         <h2>Projekter</h2>
-        <p>
-          På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. Projekterne er
-          alle med udgangspunkt i FNs 17 verdensmål. Dette kan bruges som inspiration og motivation
-          samt udgøre grundlaget for eksempelvis skoleprojekter, undersøgelser eller lignende.
-          Der kan også findes inspiration under undervisningsmaterialer, her finder du bla. undervisningsforløb
-          som tager udgangspunkt i FN's 17 verdensmål samt globalt medborgerskab og bæredygtig udvilking.
-        </p>
+        
         <div class="projekt_flex">
           <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/upload-jeres-projekt/'">Upload projekt</button>
           <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/soeg-tilskud/'">Søg tilskud</button>
         </div>
+        <p>
+          På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. Projekterne er
+          alle med udgangspunkt i FNs 17 verdensmål. Dette kan bruges som inspiration og motivation
+          samt udgøre grundlaget for eksempelvis skoleprojekter, undersøgelser eller lignende.
+        </p>
       </div>
 
       <div id="filter_menu">
