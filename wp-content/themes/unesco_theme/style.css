@@ -52,6 +52,29 @@ a:hover {
 .wp-container-1 {
   gap: 8em;
 }
+
+/* -------------------------------------------------- menu -------------------------------------------------  */
+/* markør af valgt side */
+ul.dropdown-menu.active-line-bottom > .current_page_item > a,
+ul.dropdown-menu.active-line-bottom > .current-menu-item > a,
+ul.dropdown-menu.default > .current_page_item > a,
+ul.dropdown-menu.default > .current-menu-item > a {
+  border-bottom: 3px solid white;
+}
+/* hover af menuen --> sort */
+ul.dropdown-menu.active-line-bottom
+  > li:not(.current-menu-item):not(.current_page_item):hover
+  > a {
+  color: black !important;
+}
+
+@media (min-width: 768px) {
+  ul.dropdown-menu > li:hover > a,
+  ul.dropdown-menu > li.hover > a {
+    color: black;
+  }
+}
+
 /* ------------------------------------------------- forside ----------------------------------------------- */
 /* overskrift på splash */
 h1.hero-title {
