@@ -301,11 +301,7 @@
         const filterButtons = document.querySelectorAll(".filter-btn");
         filterButtons.forEach((button) => {
           button.addEventListener("click", filterVM); //knapperne kalder på filterVM() funktionen, når man klikker
-<<<<<<< HEAD
           // button.style.opacity = 1;
-=======
-          /*button.style.opacity = 1;*/
->>>>>>> 6b95216204b8c2b4817d32488c2d6f188f7a45a2
         }); 
         fetchData(); //kalder på fetchData() funktionen
       });
