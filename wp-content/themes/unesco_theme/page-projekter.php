@@ -250,7 +250,7 @@
       </div>
 
       <div id="filter_menu">
-      <h2>Projektfilter</h2>
+      <h2>Filtrer projekter:</h2>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
