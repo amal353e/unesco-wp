@@ -63,6 +63,7 @@
       }
 
       .intro {
+        display: grid;
         max-width: 680px;
         margin-inline: auto;
         grid-template-columns: 1fr 1fr;
