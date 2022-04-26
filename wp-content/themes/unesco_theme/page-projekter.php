@@ -236,21 +236,21 @@
     <main id="main_content">
 
       <div class="intro">
-        <h2>Projekter</h2>
-        
-        <div class="projekt_flex">
-          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/upload-jeres-projekt/'">Upload projekt</button>
-          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/soeg-tilskud/'">Søg tilskud</button>
-        </div>
-        <p>
+      <p>
           På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. Projekterne er
           alle med udgangspunkt i FNs 17 verdensmål. Dette kan bruges som inspiration og motivation
           samt udgøre grundlaget for eksempelvis skoleprojekter, undersøgelser eller lignende.
         </p>
+        <br>
+        <div class="projekt_flex">
+          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/upload-jeres-projekt/'">Upload projekt</button>
+          <button class="btn-projekt" onclick="window.location.href='https\:\/\/amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/soeg-tilskud/'">Søg tilskud</button>
+        </div>
+
       </div>
 
       <div id="filter_menu">
-      <h2>Filtrer projekter:</h2>
+      <h3>Filtrer projekter ud fra de 17 verdensmål:</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
