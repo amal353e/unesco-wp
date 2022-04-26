@@ -3,10 +3,13 @@
     	<div class="row basis-auto">
 	        <div class="logo_col col-xs col-sm-fit">
 	            <?php mesmerize_print_logo(); ?>
-				hej med dig
+			
 	        </div>
 	        <div class="main_menu_col col-xs">
 	            <?php mesmerize_print_primary_menu(); ?>
+				<div>
+					<h2>menu</h2>
+				</div>
 	        </div>
 	    </div>
     </div>
