@@ -63,11 +63,17 @@
       }
 
       .intro {
-        display: grid;
         max-width: 680px;
         margin-inline: auto;
-        grid-template-columns: 1fr 1fr;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
       }
+      /* .intro p {
+        grid-column: 1/2;
+      }
+      .projekt_flex {
+        grid-column:2/3;
+      } */
 
       #filter_menu, .intro {
         margin-bottom: 48px;
