@@ -26,12 +26,14 @@ h2 {
   font-weight: 500 !important;
 }
 
-h3 {
+h3,
+h6 {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
 }
 
-h4 {
+h4,
+h5 {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
 }
@@ -42,6 +44,11 @@ p {
   color: rgb(26, 25, 25);
 }
 
+h6 {
+  font-family: basco-std, serif !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem;
+}
 /* ikoner i footer */
 .footer-content i {
   font-family: FontAwesome;
