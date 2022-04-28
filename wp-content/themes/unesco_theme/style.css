@@ -58,7 +58,7 @@ p {
   h1 {
     font-family: basco-std, serif !important;
     font-weight: 600 !important;
-    font-size: 2.5rem !important;
+    font-size: 4rem !important;
   }
 
   h2 {
@@ -201,7 +201,12 @@ div.row:nth-child(9) {
   margin-inline: 5%;
   margin-bottom: 5%;
 }
-
+@media (max-width: 768px) {
+  .wrapper_forside {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
 i.fa.icon.reverse.color1 {
   background-color: #6f9ede;
 }
