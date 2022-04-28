@@ -252,7 +252,7 @@
 
       .card_img {
         height: 100%;
-        background-size: 100%;
+        background-size: 105%;
         background-position: center;
         transition: 0.5s 
       }
