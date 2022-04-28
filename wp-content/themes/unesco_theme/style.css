@@ -124,11 +124,13 @@ ul.dropdown-menu.active-line-bottom
 a.button:nth-child(4) {
   margin-left: 5%;
 }
-/* [data-type="column"] {
-   css relger her 
-  height: 200px; 
+@media (min-width: 768px) {
+  .content-section-spacing {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
 }
-*/
+
 /* margin-bottom mellem projekt knapper og projekter på forsiden  */
 #section-3 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   margin-bottom: 3%;
@@ -212,7 +214,7 @@ nav::after,
 section::after {
   display: none;
 }
-/* flip kort */
+/* -------------------- flip kort ---------------------- */
 .flip-card {
   background-color: transparent;
   perspective: 3000px;
@@ -393,3 +395,44 @@ li .slick-active {
 /*#menu-item-882 > a:nth-child(1) {
   background-image: url("wp-content/themes/unesco_theme/billeder/10.png");
 }*/
+
+/* ---------------- undervisningsmateriale ---------------- */
+/* transition hover på undervisningsmateriale */
+article.apbPost:hover {
+  transform: scale(1.02);
+}
+/* hover farve på forløb */
+.eb-accordion-k2bfgts
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1):hover,
+.eb-accordion-k2bfgts
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > div:nth-child(1):hover,
+.eb-accordion-k2bfgts
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div:nth-child(1):hover {
+  background-color: rgb(228, 170, 70);
+}
+
+/* hover farve på forløb */
+.eb-accordion-pl5yi40
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1):hover,
+.eb-accordion-pl5yi40
+  > div:nth-child(1)
+  > div:nth-child(2)
+  > div:nth-child(1):hover,
+.eb-accordion-pl5yi40
+  > div:nth-child(1)
+  > div:nth-child(3)
+  > div:nth-child(1):hover,
+.eb-accordion-y134zqh
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1):hover {
+  background-color: rgb(124, 181, 129);
+}

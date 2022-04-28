@@ -198,6 +198,7 @@
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
+        transform: scale(1.005);
       }
 
       .projekt_titel {
@@ -270,7 +271,7 @@
       </div>
 
       <div id="filter_menu">
-      <h3 class="filtrerh3">Filtrer projekter ud fra de 17 verdensmål:</h3>
+      <h3 class="filtrerh3">Filtrer projekter ud fra de 17 verdensmål</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
