@@ -214,8 +214,8 @@
 
       .projekt_card {
         display: grid;
-        grid-template-rows: 1fr 1fr;
-        aspect-ratio: 5/9;
+        grid-template-rows: 4fr 5fr;
+        aspect-ratio: 2/3;
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
         transition: 0.3s box-shadow;
