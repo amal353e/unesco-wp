@@ -18,11 +18,36 @@
       h2, h3, p {
         text-align: left !important;
       }
+      p{
+        font-size:1rem;
+      }
 
       .filtrerh3{
         text-align: center !important;
       }
+  @media (max-width: 768px) {
+  h1{
+    font-size:2.2rem;
+  }
+  h2{
+  font-size:2rem;
+  }
+  h3, h6{
+  font-size:1.5rem;
+  }
+  h4,
+  h5 {
+    font-size: 1.2rem;
+  }
 
+  h6 {
+    
+    font-size: 1.1rem;
+  }
+  p {
+    color: rgb(26, 25, 25);
+  }
+}
       #main_content {
         padding-inline: 8px;
         max-width: 1200px;
@@ -84,7 +109,11 @@
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
         gap: 8px;
       }
-
+       @media (max-width:780px) {
+        #filter {
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+      }
       .filter-btn {
         aspect-ratio: 1/1;
         width: 100%;
