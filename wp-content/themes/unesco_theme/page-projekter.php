@@ -109,11 +109,13 @@
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
         gap: 8px;
       }
-       @media (max-width:780px) {
+
+      @media (max-width:780px) {
         #filter {
           grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         }
       }
+
       .filter-btn {
         aspect-ratio: 1/1;
         width: 100%;
@@ -241,11 +243,7 @@
         gap: 36px 24px;
       }
 
-      @media (max-width:780px) {
-        #filter {
-          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        }
-
+      @media (max-width: 840px) {
         #content_projekter {
           grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         }
