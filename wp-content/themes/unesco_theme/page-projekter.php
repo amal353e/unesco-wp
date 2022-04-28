@@ -109,7 +109,7 @@
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
         gap: 8px;
       }
-      @media (max-width:780px) {
+       @media (max-width:780px) {
         #filter {
           grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         }
@@ -237,15 +237,25 @@
 
       #content_projekter {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
         gap: 36px 24px;
+      }
+
+      @media (max-width:780px) {
+        #filter {
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+
+        #content_projekter {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
       }
 
       .card_img {
         max-height: 100%;
         background-size: cover;
         object-fit: cover;
-        aspect-ratio: 3/2;
+        aspect-ratio: 4/3;
       }
 
       .card_text {
