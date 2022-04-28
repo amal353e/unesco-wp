@@ -192,7 +192,6 @@
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
-        transform: scale(1.005);
       }
 
       .projekt_titel {
@@ -223,9 +222,9 @@
       }
 
       .card_img {
-        max-height: 100%;
-        background-size: cover;
-        object-fit: cover;
+        height: 100%;
+        background-size: auto 100%;
+        background-position: center;
         aspect-ratio: 4/3;
       }
 
@@ -249,12 +248,12 @@
 
     <template>
       <article class="projekt_card">
-       	<img class="card_img" src="" alt="" />
-          <div class="card_text">
-            <h3 class="projekt_titel"></h3>
-            <p class="kort_beskrivelse"></p>
-            <p class="trin"></p>
-          </div>
+        <div class="card_img"></div>
+        <div class="card_text">
+          <h3 class="projekt_titel"></h3>
+          <p class="kort_beskrivelse"></p>
+          <p class="trin"></p>
+        </div>
      	</article>
     </template>
 
@@ -351,7 +350,7 @@
           if (filter == "alle" || projekt.verdensmaal_1 == "n/a" || filter == projekt.verdensmaal_1 || filter == projekt.verdensmaal_2 || filter == projekt.verdensmaal_3) {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
-            clone.querySelector("img").src = `${projekt.billede.guid}`;
+            clone.querySelector(".card_img").style.backgroundImage = `url(${projekt.billede.guid})`;
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;
