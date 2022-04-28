@@ -124,11 +124,13 @@ ul.dropdown-menu.active-line-bottom
 a.button:nth-child(4) {
   margin-left: 5%;
 }
-/* [data-type="column"] {
-   css relger her 
-  height: 200px; 
+@media (min-width: 768px) {
+  .content-section-spacing {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
 }
-*/
+
 /* margin-bottom mellem projekt knapper og projekter på forsiden  */
 #section-3 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
   margin-bottom: 3%;
