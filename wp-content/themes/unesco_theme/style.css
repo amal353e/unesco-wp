@@ -51,45 +51,46 @@ p {
   font-family: sweet-sans-pro, sans-serif !important;
   font-weight: 400 !important;
   color: rgb(26, 25, 25);
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 @media (max-width: 768px) {
   h1 {
     font-family: basco-std, serif !important;
     font-weight: 600 !important;
-    font-size: 2.2rem;
+    font-size: 2.5rem !important;
   }
 
   h2 {
     font-family: basco-std, serif !important;
     font-weight: 500 !important;
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   h3,
   h6 {
     font-family: basco-std, serif !important;
     font-weight: 500 !important;
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
 
   h4,
   h5 {
     font-family: basco-std, serif !important;
     font-weight: 500 !important;
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 
   h6 {
     font-family: basco-std, serif !important;
     font-weight: 500 !important;
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   p {
     font-family: sweet-sans-pro, sans-serif !important;
     font-weight: 400 !important;
     color: rgb(26, 25, 25);
+    font-size: 1rem !important;
   }
 }
 /* ikoner i footer */
