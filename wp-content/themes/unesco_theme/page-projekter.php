@@ -192,6 +192,7 @@
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
+        transform: scale(1.005);
       }
 
       .projekt_titel {
