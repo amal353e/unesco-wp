@@ -218,12 +218,13 @@
         aspect-ratio: 2/3;
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
-        transition: 0.3s box-shadow;
+        transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
       }
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
+        transform: translateY(-4px)
       }
 
       .projekt_titel {
@@ -251,8 +252,14 @@
 
       .card_img {
         height: 100%;
-        background-size: auto 100%;
+        background-size: 100%;
         background-position: center;
+        transition: 0.5s 
+      }
+
+      .projekt_card:hover .card_img {
+        background-size: 110%;
+        filter: brightness(0.75)
       }
 
       .card_text {
