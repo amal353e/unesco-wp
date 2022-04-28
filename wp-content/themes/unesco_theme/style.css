@@ -19,35 +19,78 @@ div.row:nth-child(7) {
 h1 {
   font-family: basco-std, serif !important;
   font-weight: 600 !important;
+  font-size: 5rem;
 }
 
 h2 {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
+  font-size: 2.5rem;
 }
 
 h3,
 h6 {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
+  font-size: 2rem;
 }
 
 h4,
 h5 {
   font-family: basco-std, serif !important;
   font-weight: 500 !important;
+  font-size: 1.1rem;
+}
+h6 {
+  font-family: basco-std, serif !important;
+  font-weight: 500 !important;
+  font-size: 1.2rem;
 }
 
 p {
   font-family: sweet-sans-pro, sans-serif !important;
   font-weight: 400 !important;
   color: rgb(26, 25, 25);
+  font-size: 1rem;
 }
 
-h6 {
-  font-family: basco-std, serif !important;
-  font-weight: 500 !important;
-  font-size: 1.2rem;
+@media (max-width: 768px) {
+  h1 {
+    font-family: basco-std, serif !important;
+    font-weight: 600 !important;
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-family: basco-std, serif !important;
+    font-weight: 500 !important;
+    font-size: 2rem;
+  }
+
+  h3,
+  h6 {
+    font-family: basco-std, serif !important;
+    font-weight: 500 !important;
+    font-size: 1.5rem;
+  }
+
+  h4,
+  h5 {
+    font-family: basco-std, serif !important;
+    font-weight: 500 !important;
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-family: basco-std, serif !important;
+    font-weight: 500 !important;
+    font-size: 1.1rem;
+  }
+  p {
+    font-family: sweet-sans-pro, sans-serif !important;
+    font-weight: 400 !important;
+    color: rgb(26, 25, 25);
+  }
 }
 /* ikoner i footer */
 .footer-content i {
@@ -102,7 +145,14 @@ li.menu-item a {
 li.menu-item:hover a {
   border-bottom: 3px solid white !important;
 }
-
+/* burgermenu ikon */
+.main_menu_col [data-component="offcanvas"] .bubble {
+  background-color: transparent;
+}
+.coloured-nav .main_menu_col [data-component="offcanvas"] .bubble,
+.fixto-fixed .main_menu_col [data-component="offcanvas"] .bubble {
+  background-color: transparent;
+}
 /* ------------------------------------------------- forside ----------------------------------------------- */
 /* overskrift på splash */
 h1.hero-title {
