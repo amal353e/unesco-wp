@@ -217,6 +217,7 @@
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
         transition: 0.3s box-shadow;
+        overflow: hidden;
       }
       
       .projekt_card:hover {
@@ -254,7 +255,6 @@
         height: 100%;
         background-size: auto 100%;
         background-position: center;
-        aspect-ratio: 4/3;
       }
 
       .card_text {
