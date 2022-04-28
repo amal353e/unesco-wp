@@ -258,7 +258,7 @@
       .card_text {
         padding: 8px;
         display: grid;
-        grid-template-rows: 5rem auto auto;
+        grid-template-rows: auto auto;
       }
       
       .card_text > p {
@@ -277,8 +277,10 @@
       <article class="projekt_card">
         <div class="card_img"></div>
         <div class="card_text">
-          <h3 class="projekt_titel"></h3>
-          <p class="kort_beskrivelse"></p>
+          <div>
+            <h3 class="projekt_titel"></h3>
+            <p class="kort_beskrivelse"></p>
+          </div>
           <p class="trin"></p>
         </div>
      	</article>
