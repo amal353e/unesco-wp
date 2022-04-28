@@ -85,7 +85,7 @@
         gap: 8px;
       }
 
-      @media (max-width:678px) {
+      @media (max-width:780px) {
         #filter {
           grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         }
@@ -214,12 +214,12 @@
 
       #content_projekter {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 36px 24px;
       }
 
       .card_img {
-        height: 100%;
+        max-height: 100%;
         background-size: cover;
         object-fit: cover;
         aspect-ratio: 3/2;
