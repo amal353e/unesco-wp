@@ -85,6 +85,12 @@
         gap: 8px;
       }
 
+      @media (max-width:678px) {
+        #filter {
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+      }
+
       .filter-btn {
         aspect-ratio: 1/1;
         width: 100%;
