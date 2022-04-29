@@ -228,7 +228,7 @@
       }
 
       article.projekt_card h3, article.projekt_card p{
-color: white;
+        color: white;
       }
       
       .projekt_card:hover {
