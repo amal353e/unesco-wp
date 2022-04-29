@@ -134,17 +134,18 @@ ul.dropdown-menu.active-line-bottom
     color: black;
   }
 }
- #offcanvas-wrapper {
-background-color: #222B34;
-background-color: #85AECE;
+#offcanvas-wrapper {
+  background-color: #222b34;
+  background-color: #85aece;
 }
 .offcanvas_menu li {
-font-size: 1rem;
-font-family: basco-std, serif;
+  font-size: 1rem;
+  font-family: basco-std, serif;
 }
-.offcanvas_menu li.open > a, .offcanvas_menu li.open > a:hover {
-background-color: #6F9EDE;
-color: white;
+.offcanvas_menu li.open > a,
+.offcanvas_menu li.open > a:hover {
+  background-color: #6f9ede;
+  color: white;
 }
 
 #menu-item-882 a::after {
@@ -187,30 +188,6 @@ ul.dropdown-menu.active-line-bottom
 }
 
 /* left align tekst på forsiden */
-.section-title-col > *:not(h2:nth-child(2)),
-div.col-sm-6:nth-child(1) > h3:nth-child(2) > div:nth-child(1),
-div.col-sm-6:nth-child(1) > p:nth-child(3),
-div.wp-block-columns:nth-child(3) > div:nth-child(1) > p:nth-child(2),
-div.wp-block-columns:nth-child(3) > div:nth-child(1) > p:nth-child(4),
-div.wp-block-columns:nth-child(14) > div:nth-child(1) > p:nth-child(1),
-div.wp-block-columns:nth-child(14) > div:nth-child(2) > p:nth-child(1),
-div.wp-block-columns:nth-child(2) > div:nth-child(1) > h2:nth-child(1),
-div.wp-block-columns:nth-child(2) > div:nth-child(1) > h2:nth-child(2),
-div.wp-block-columns:nth-child(2) > div:nth-child(1) > p:nth-child(4),
-div.wp-block-columns:nth-child(2) > div:nth-child(1) > p:nth-child(5),
-div.wp-block-columns:nth-child(2) > div:nth-child(1) > p:nth-child(6),
-div.wp-block-columns:nth-child(8) > div:nth-child(1) > p:nth-child(1),
-div.wp-block-columns:nth-child(8) > div:nth-child(1) > p:nth-child(3),
-div.wp-block-columns:nth-child(8) > div:nth-child(1) > p:nth-child(4),
-div.wp-block-columns:nth-child(8) > div:nth-child(1) > p:nth-child(5),
-div.wp-block-columns:nth-child(12) > div:nth-child(1) > p:nth-child(3),
-div.wp-block-columns:nth-child(12) > div:nth-child(2) > p:nth-child(2),
-div.wp-block-columns:nth-child(12) > div:nth-child(2) > p:nth-child(3),
-.wp-container-1 > div:nth-child(1) > p:nth-child(1),
-.wp-container-2 > div:nth-child(1) > p:nth-child(1),
-#post-32 > div:nth-child(1) > p:nth-child(7),
-#post-32 > div:nth-child(1) > ul:nth-child(9),
-div.wp-block-columns:nth-child(16) > div:nth-child(1) > p:nth-child(2) {
 .section-title-col > *:not(h2:nth-child(1)) {
   text-align: left;
 }
