@@ -308,6 +308,7 @@ i.fa.icon.reverse.color1 {
 
 a.wp-block-button__link {
   padding: 0.5rem 1rem;
+  transition: 0.5s;
 }
 
 /*  */
