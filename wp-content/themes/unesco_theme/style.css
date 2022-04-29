@@ -307,6 +307,18 @@ i.fa.icon.reverse.color1 {
   border-color: #93cc99;
 }
 
+a.wp-block-button__link {
+  padding: 0.5rem 1.5rem;
+  transition: 0.3s;
+  font-size: 0.75rem;
+  border: #6f9ede 2px solid;
+  font-weight: 700;
+}
+
+.wp-container-1.wp-block-buttons {
+  gap: 40px 10%;
+}
+
 /*  */
 div::before,
 ul::before,
