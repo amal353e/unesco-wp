@@ -373,6 +373,7 @@ section::after {
 }
 .footer_logo {
   max-width: 128px;
+  cursor: pointer;
 }
 
 /*.copyright {
