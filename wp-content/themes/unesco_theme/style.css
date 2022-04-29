@@ -487,7 +487,9 @@ section::after {
     padding-top: 65px;
     padding-bottom: 60px;
   }
+}
 
+@media (max-width: 768px) {
   .footer-content .row.text-center {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
