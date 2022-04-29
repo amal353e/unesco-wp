@@ -19,35 +19,39 @@
         text-align: left !important;
       }
       p{
-        font-size:1rem;
+        font-size: 1rem;
       }
 
       .filtrerh3{
         text-align: center !important;
       }
-  @media (max-width: 768px) {
-  h1{
-    font-size:2.2rem;
-  }
-  h2{
-  font-size:2rem;
-  }
-  h3, h6{
-  font-size:1.5rem;
-  }
-  h4,
-  h5 {
-    font-size: 1.2rem;
-  }
 
-  h6 {
-    
-    font-size: 1.1rem;
-  }
-  p {
-    color: rgb(26, 25, 25);
-  }
-}
+      [data-type="group"] p {
+        text-align: center !important;
+      }
+
+      @media (max-width: 768px) {
+        h1{
+          font-size:2.2rem;
+        }
+        h2{
+        font-size:2rem;
+        }
+        h3, h6{
+        font-size:1.5rem;
+        }
+        h4,
+        h5 {
+          font-size: 1.2rem;
+        }
+
+        h6 {
+          font-size: 1.1rem;
+        }
+        p {
+          color: rgb(26, 25, 25);
+        }
+      }
       #main_content {
         padding-inline: 8px;
         max-width: 1200px;
@@ -224,7 +228,7 @@
       }
 
       article.projekt_card h3, article.projekt_card p{
-color: white;
+        color: white;
       }
       
       .projekt_card:hover {
@@ -237,10 +241,17 @@ color: white;
         font-weight: 700;
       }
 
+      .kort_beskrivelse {
+        position: relative;
+      }
+
       .kort_beskrivelse::after {
         content: "Læs mere";
         text-decoration: underline;
-        padding-left: 0.25rem;
+        /*padding-left: 0.25rem;*/
+        position: absolute;
+        left: 0;
+        bottom: -1.5rem;
       }
 
       #content_projekter {
