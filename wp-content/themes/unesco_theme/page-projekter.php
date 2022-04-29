@@ -254,7 +254,7 @@
         left: 0;
         bottom: -1.5rem;
       }
-      
+
       .lang_beskrivelse{
         line-height: 1.8;
       }
