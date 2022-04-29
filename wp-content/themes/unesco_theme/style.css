@@ -492,8 +492,8 @@ section::after {
 @media (max-width: 768px) {
   .footer-content .row.text-center {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-    gap: 32px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 32px 64px;
   }
 }
 
