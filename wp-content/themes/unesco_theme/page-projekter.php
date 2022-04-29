@@ -79,9 +79,9 @@
         padding: 0.55rem 1.5rem;
         cursor: pointer;
         transition: 0.4s;
-        font-family: "Open Sans";
+        font-family: sweet-sans-pro, sans-serif !important;
       }
-
+ 
       .btn-projekt:hover {
         outline: none;
         text-decoration: none;
@@ -89,6 +89,7 @@
         background-color: #93cc99;
         border-color: #93cc99;
         border-radius: 120px;
+        font-family: sweet-sans-pro, sans-serif !important;
       }
 
       .intro {
@@ -252,6 +253,10 @@
         position: absolute;
         left: 0;
         bottom: -1.5rem;
+      }
+      .lang_beskrivelse{
+          line-height: 1.8;
+}
       }
 
       #content_projekter {
