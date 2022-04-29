@@ -328,6 +328,7 @@ section::after {
 }
 .flip-card-back a {
   text-decoration: none;
+  font-family: basco-std, serif !important;
 }
 
 .flip-card-back a:hover {
