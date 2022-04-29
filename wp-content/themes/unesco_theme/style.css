@@ -188,6 +188,7 @@ ul.dropdown-menu.active-line-bottom
 }
 
 /* left align tekst på forsiden */
+
 .section-title-col > *:not(h2:nth-child(2)),
 div.col-sm-6:nth-child(1) > h3:nth-child(2) > div:nth-child(1),
 div.col-sm-6:nth-child(1) > p:nth-child(3),
@@ -217,6 +218,20 @@ div.wp-block-columns:nth-child(16)
   .section-title-col
   > *:not(h2:nth-child(1)) {
   text-align: left;
+}
+
+#section-3
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > h2:nth-child(1),
+p.lead:nth-child(2),
+#section-4
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > div:nth-child(1)
+  > h2:nth-child(1) {
+  text-align: center;
 }
 
 /* projekt knapper adskilt på forsiden */
@@ -422,9 +437,6 @@ section::after {
   cursor: pointer;
 }
 
-/*.copyright {
-  display: none;
-}*/
 .footer-contact-boxes .col-sm-3 {
   border: solid #85aece;
 }
@@ -452,17 +464,13 @@ div.wp-block-columns:nth-child(3) > div:nth-child(1) a:hover {
   text-decoration: none;
   color: #93cc99;
 }
-/* ul .slick-dots {
-  display: none;
-}
-li .slick-active {
-  display: none;
-} */
 
 /* knapper - formularer */
 #wpforms-submit-236,
 #wpforms-submit-229,
-#wpforms-submit-169 {
+#wpforms-submit-169,
+#wpforms-submit-260,
+#wpforms-submit-102 {
   outline: none;
   text-decoration: none;
   color: #6f9ede;
@@ -473,7 +481,9 @@ li .slick-active {
 }
 #wpforms-submit-236:hover,
 #wpforms-submit-229:hover,
-#wpforms-submit-169:hover {
+#wpforms-submit-169:hover,
+#wpforms-submit-260:hover,
+#wpforms-submit-102:hover {
   outline: none;
   text-decoration: none;
   color: white;
