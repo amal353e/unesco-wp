@@ -18,11 +18,36 @@
       h2, h3, p {
         text-align: left !important;
       }
+      p{
+        font-size:1rem;
+      }
 
       .filtrerh3{
         text-align: center !important;
       }
+  @media (max-width: 768px) {
+  h1{
+    font-size:2.2rem;
+  }
+  h2{
+  font-size:2rem;
+  }
+  h3, h6{
+  font-size:1.5rem;
+  }
+  h4,
+  h5 {
+    font-size: 1.2rem;
+  }
 
+  h6 {
+    
+    font-size: 1.1rem;
+  }
+  p {
+    color: rgb(26, 25, 25);
+  }
+}
       #main_content {
         padding-inline: 8px;
         max-width: 1200px;
@@ -85,6 +110,12 @@
         gap: 8px;
       }
 
+      @media (max-width:780px) {
+        #filter {
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+      }
+
       .filter-btn {
         aspect-ratio: 1/1;
         width: 100%;
@@ -106,6 +137,7 @@
 
       .filter-btn:hover {
         opacity: 0.8;
+        transform: scale(1.03);
       }
 
       [data-category="alle"] {
@@ -182,15 +214,17 @@
 
       .projekt_card {
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 4fr 5fr;
         aspect-ratio: 2/3;
         box-shadow: #80808040 2px 4px 8px 0px;
         cursor: pointer;
-        transition: 0.3s box-shadow;
+        transition: 0.3s box-shadow, 0.5s transform;
+        overflow: hidden;
       }
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
+        transform: translateY(-4px)
       }
 
       .projekt_titel {
@@ -206,21 +240,32 @@
 
       #content_projekter {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
         gap: 36px 24px;
+      }
+
+      @media (max-width: 840px) {
+        #content_projekter {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
       }
 
       .card_img {
         height: 100%;
-        background-size: cover;
-        object-fit: cover;
-        aspect-ratio: 3/2;
+        background-size: 105%;
+        background-position: center;
+        transition: 0.5s 
+      }
+
+      .projekt_card:hover .card_img {
+        background-size: 110%;
+        filter: brightness(0.75)
       }
 
       .card_text {
         padding: 8px;
         display: grid;
-        grid-template-rows: 5rem auto auto;
+        grid-template-rows: auto auto;
       }
       
       .card_text > p {
@@ -237,12 +282,14 @@
 
     <template>
       <article class="projekt_card">
-       	<img class="card_img" src="" alt="" />
-          <div class="card_text">
+        <div class="card_img"></div>
+        <div class="card_text">
+          <div>
             <h3 class="projekt_titel"></h3>
             <p class="kort_beskrivelse"></p>
-            <p class="trin"></p>
           </div>
+          <p class="trin"></p>
+        </div>
      	</article>
     </template>
 
@@ -263,7 +310,7 @@
       </div>
 
       <div id="filter_menu">
-      <h3 class="filtrerh3">Filtrer projekter ud fra de 17 verdensmål:</h3>
+      <h3 class="filtrerh3">Filtrer projekter ud fra de 17 verdensmål</h3>
         <div id="filter">
           <button class="filter-btn selected" data-category="alle">Alle</button>
           <button class="filter-btn" data-category="vm1">1. Afskaf fattigdom</button>
@@ -339,7 +386,7 @@
           if (filter == "alle" || projekt.verdensmaal_1 == "n/a" || filter == projekt.verdensmaal_1 || filter == projekt.verdensmaal_2 || filter == projekt.verdensmaal_3) {
             //hvis objektet har samme værdi som filterknappen
             const clone = template.cloneNode(true);
-            clone.querySelector("img").src = `${projekt.billede.guid}`;
+            clone.querySelector(".card_img").style.backgroundImage = `url(${projekt.billede.guid})`;
             clone.querySelector(".projekt_titel").textContent = `${projekt.title.rendered}`;
             clone.querySelector(".kort_beskrivelse").textContent = `${projekt.kortbeskrivelse}`;
             clone.querySelector(".trin").textContent = `Uddannelsestrin: ${projekt.uddannelse}`;

@@ -18,7 +18,7 @@
           object-fit: cover;
         }
 
-        #close {
+        #back {
           padding: 4px 12px;
           font-size: 32px;
           font-weight: bolder;
@@ -55,7 +55,7 @@
       </style>
 
       <main id="main_content">
-        <div id="close">&#x2715;</div>
+        <div id="back">&#x2715;</div>
         <h2 class="projekt_titel"></h2>
         <section id="single_post">
           <div class="col_left">
@@ -97,8 +97,8 @@
           } else document.querySelector(".til_elever").textContent = ""; 
 			  }
 
-		  	document.getElementById("close").addEventListener("click", () => {
-			  	history.back();
+		  	document.getElementById("back").addEventListener("click", () => {
+			  	location.href = "https://amaliekn.dk/kea/2_semester/tema_9/unesco/unesco-wp/projekter/";
 		  	});
 
       </script>
