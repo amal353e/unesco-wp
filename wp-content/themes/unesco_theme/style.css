@@ -622,3 +622,9 @@ textarea,
 select {
   font-family: basco-std, serif;
 }
+
+/* Placering af tekst til "filter undervisningsmateriale" */
+#post-19 > div:nth-child(1) > h3:nth-child(2) {
+  text-align: center;
+  padding-top: 5%;
+}
