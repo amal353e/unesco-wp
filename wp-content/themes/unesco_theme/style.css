@@ -218,6 +218,7 @@ div.wp-block-columns:nth-child(16)
   .section-title-col
   > *:not(h2:nth-child(1)) {
   text-align: left;
+  line-height: 1.8;
 }
 
 #section-3
