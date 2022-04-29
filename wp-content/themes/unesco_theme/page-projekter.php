@@ -222,6 +222,10 @@
         overflow: hidden;
         color: white !important;
       }
+
+      article.projekt_card h3, article.projekt_card p{
+color: white;
+      }
       
       .projekt_card:hover {
         box-shadow: #80808080 2px 4px 16px 4px;
