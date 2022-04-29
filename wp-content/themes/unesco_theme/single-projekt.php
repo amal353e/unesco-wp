@@ -52,6 +52,10 @@
           margin-top: 3rem;
         }
 
+        [data-type="group"] p {
+          text-align: center !important;
+        }
+
       </style>
 
       <main id="main_content">
