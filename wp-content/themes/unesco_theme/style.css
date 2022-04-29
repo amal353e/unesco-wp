@@ -639,7 +639,7 @@ select {
 #post-19 > div:nth-child(1) > h3:nth-child(2) {
   text-align: center;
   padding-top: 5%;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 /* ---------------------------------------- om UNESCO side ------------------------------------------- */
