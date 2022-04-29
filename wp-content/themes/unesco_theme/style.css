@@ -199,6 +199,40 @@ ul.dropdown-menu.active-line-bottom
   }
 }
 
+/* letter spacing fjerne */
+h6,
+.h6,
+.contact-form-wrapper label,
+h5,
+.comment-author .fn,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h1:first-child,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h2:first-child,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h3:first-child,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h4:first-child,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h5:first-child,
+.widget_block
+  > .wp-block-group
+  > .wp-block-group__inner-container
+  h6:first-child,
+.h5 {
+  letter-spacing: 0rem;
+  color: black;
+}
 /* left align tekst på forsiden */
 
 .section-title-col > *:not(h2:nth-child(2)),
@@ -432,10 +466,12 @@ section::after {
 .flip-card-back p {
   color: white;
   font-family: basco-std, serif !important;
+  text-align: left;
 }
 .flip-card-back a {
   text-decoration: none;
   font-family: basco-std, serif !important;
+  text-align: center;
 }
 
 .flip-card-back a:hover {
