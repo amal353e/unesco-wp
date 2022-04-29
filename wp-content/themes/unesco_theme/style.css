@@ -134,6 +134,18 @@ ul.dropdown-menu.active-line-bottom
     color: black;
   }
 }
+ #offcanvas-wrapper {
+background-color: #222B34;
+background-color: #85AECE;
+}
+.offcanvas_menu li {
+font-size: 1rem;
+font-family: basco-std, serif;
+}
+.offcanvas_menu li.open > a, .offcanvas_menu li.open > a:hover {
+background-color: #6F9EDE;
+color: white;
+}
 
 #menu-item-882 a::after {
   font-family: FontAwesome;
