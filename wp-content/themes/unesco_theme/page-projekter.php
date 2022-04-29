@@ -257,7 +257,7 @@
       .lang_beskrivelse{
           line-height: 1.8;
 }
-      }
+  
 
       #content_projekter {
         display: grid;
