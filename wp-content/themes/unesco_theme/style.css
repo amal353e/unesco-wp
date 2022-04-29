@@ -110,6 +110,9 @@ a:hover {
   gap: 8em;
 }
 
+.button {
+  font-family: sweet-sans-pro, sans-serif !important;
+}
 /* -------------------------------------------------- menu -------------------------------------------------  */
 /* markør af valgt side */
 ul.dropdown-menu.active-line-bottom > .current_page_item > a,
@@ -216,6 +219,7 @@ i.fa.icon.reverse.color1 {
   outline: none;
   text-decoration: none;
   color: #6f9ede;
+  font-family: sweet-sans-pro, sans-serif !important;
   background-color: transparent;
   border-color: #6f9ede;
   border-radius: 120px;
@@ -234,6 +238,7 @@ i.fa.icon.reverse.color1 {
   background-color: transparent;
   border-color: #6f9ede;
   border-radius: 120px;
+  font-family: sweet-sans-pro, sans-serif !important;
 }
 .button.color2:hover {
   color: #ffffff;
@@ -319,6 +324,16 @@ section::after {
 
 .flip-card-back p {
   color: white;
+  font-family: basco-std, serif !important;
+}
+.flip-card-back a {
+  text-decoration: none;
+}
+
+.flip-card-back a:hover {
+  text-decoration: none;
+  color: black;
+  font-family: basco-std, serif !important;
 }
 
 /* ---------------- verdensmål ------------- */
@@ -329,6 +344,7 @@ section::after {
   background-color: transparent;
   border: solid;
   border-color: #6f9ede;
+  font-family: sweet-sans-pro, sans-serif !important;
 }
 .wp-block-button__link:active,
 .wp-block-button__link:focus,
@@ -368,6 +384,9 @@ section::after {
 .footer-contact-boxes .col-sm-3:last-child {
   border: solid #85aece;
 }
+.footer-contact-boxes p {
+  font-family: basco-std, serif !important ;
+}
 
 @media (min-width: 768px) {
   .footer-contact-boxes .col-sm-3 {
@@ -403,6 +422,7 @@ li .slick-active {
   background-color: transparent;
   border-color: #6f9ede;
   border-radius: 120px;
+  font-family: sweet-sans-pro, sans-serif !important;
 }
 #wpforms-submit-236:hover,
 #wpforms-submit-229:hover,
@@ -423,6 +443,7 @@ li .slick-active {
   background-color: transparent;
   border-color: #6f9ede;
   border-radius: 120px;
+  font-family: sweet-sans-pro, sans-serif !important;
 }
 .wp-block-button__link:hover {
   outline: none;
@@ -439,6 +460,7 @@ li .slick-active {
   background-color: transparent !important;
   border-color: #6f9ede !important;
   border-radius: 120px !important;
+  font-family: sweet-sans-pro, sans-serif !important;
 }
 
 .wp-block-button__link:hover {
@@ -491,4 +513,11 @@ article.apbPost:hover {
   > div:nth-child(1)
   > div:nth-child(1):hover {
   background-color: rgb(124, 181, 129);
+}
+
+/* font i vælg kategori */
+input,
+textarea,
+select {
+  font-family: basco-std, serif;
 }
