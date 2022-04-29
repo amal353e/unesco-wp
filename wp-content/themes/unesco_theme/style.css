@@ -175,7 +175,7 @@ ul.dropdown-menu.active-line-bottom
 }
 
 /* left align tekst på forsiden */
-.section-title-col > *:not(h2:nth-child(2)) {
+.section-title-col > *:not(h2:nth-child(1)) {
   text-align: left;
 }
 
