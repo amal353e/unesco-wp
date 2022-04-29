@@ -291,7 +291,7 @@
       .trin {
         font-style: italic;
         margin-top: auto;
-        font-size: 0.9em;
+        font-size: 0.95em !important;
         opacity: 0.85;
       }
     </style>
