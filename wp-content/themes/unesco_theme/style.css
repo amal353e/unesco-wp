@@ -487,6 +487,12 @@ section::after {
     padding-top: 65px;
     padding-bottom: 60px;
   }
+
+  .footer-content .row.text-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 32px;
+  }
 }
 
 /* --------------------------------- verdensmålsskoler - side ------------------------- */
