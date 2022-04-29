@@ -479,6 +479,7 @@ li .slick-active {
 /* transition hover på undervisningsmateriale */
 article.apbPost:hover {
   transform: scale(1.02);
+  box-shadow: #80808040 2px 4px 8px 0px;
 }
 /* hover farve på forløb */
 .eb-accordion-k2bfgts
