@@ -11,4 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   logo.setAttribute("class", "footer_logo");
   parent.appendChild(logo);
+
+  //linjeskift
+  const telefonTekst = document.querySelector(".fa-phone + p");
+  telefonTekst.innerHTML = "Tlf: +45 44 91 46 46<br />Direkte: +45 21 74 42 75";
 });

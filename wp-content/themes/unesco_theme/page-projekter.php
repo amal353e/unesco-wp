@@ -220,6 +220,7 @@
         cursor: pointer;
         transition: 0.3s box-shadow, 0.5s transform;
         overflow: hidden;
+        color: ;
       }
       
       .projekt_card:hover {
