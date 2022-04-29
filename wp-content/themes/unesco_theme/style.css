@@ -187,6 +187,7 @@ ul.dropdown-menu.active-line-bottom
   color: #93cc99;
 }
 
+/* globus billede på forsiden */
 .shadow-large {
   width: 70%;
   margin-left: 0%;
@@ -638,4 +639,13 @@ select {
 #post-19 > div:nth-child(1) > h3:nth-child(2) {
   text-align: center;
   padding-top: 5%;
+}
+
+/* ---------------------------------------- om UNESCO side ------------------------------------------- */
+/* styregruppe */
+#post-32 > div:nth-child(1) > ul:nth-child(9) {
+  color: black;
+}
+h3.has-text-align-center {
+  margin-bottom: 8%;
 }
