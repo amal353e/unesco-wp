@@ -318,6 +318,28 @@ a.wp-block-button__link {
   gap: 40px 10%;
 }
 
+.col-xs-12.col-sm-4.col-padding {
+  padding: 16px;
+}
+
+.col-xs-12.col-sm-4.col-padding div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
+.col-xs-12.col-sm-4.col-padding div a {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .col-xs-12.col-sm-4.col-padding div {
+    height: auto;
+  }
+}
+
 /*  */
 div::before,
 ul::before,
