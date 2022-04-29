@@ -187,6 +187,17 @@ ul.dropdown-menu.active-line-bottom
   color: #93cc99;
 }
 
+.shadow-large {
+  width: 70%;
+  margin-left: 0%;
+  box-shadow: none;
+}
+@media (min-width: 768px) {
+  .shadow-large {
+    margin: 10%;
+  }
+}
+
 /* left align tekst på forsiden */
 
 .section-title-col > *:not(h2:nth-child(2)),
