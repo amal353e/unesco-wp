@@ -489,6 +489,14 @@ section::after {
   }
 }
 
+@media (max-width: 768px) {
+  .footer-content .row.text-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 32px 64px;
+  }
+}
+
 /* --------------------------------- verdensmålsskoler - side ------------------------- */
 /* links fået farve */
 div.wp-block-columns:nth-child(3) > div:nth-child(1) a {
